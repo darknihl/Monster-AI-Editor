@@ -10,13 +10,13 @@ namespace BattleScriptsTest
     public class Program
     {
         public int ScriptOffset;
-        public int 
 
         static void Main(string[] args)
         {
             RomFileIO Rom = new RomFileIO();
             Rom.Open("./FF6MTEST.sfc");
             ExportScriptsNormal(Rom);
+            ExportScriptsHard(Rom);
             Rom.Close();
         }
 
@@ -35,7 +35,7 @@ namespace BattleScriptsTest
                 PointerLoop++;
                 PointerLoop++;
             }
-            using (StreamWriter file = new StreamWriter("./Normal/normal_pointers.txt", true))
+            using (StreamWriter file = new StreamWriter("./Normal/normal_pointers.txt", false))
             {
                 int WriteLoop = 0;
                 while (WriteLoop < 512)
@@ -61,7 +61,7 @@ namespace BattleScriptsTest
                 PointerLoop++;
                 PointerLoop++;
             }
-            using (StreamWriter file = new StreamWriter("./Hard/hard_pointers.txt", true))
+            using (StreamWriter file = new StreamWriter("./Hard/hard_pointers.txt", false))
             {
                 int WriteLoop = 0;
                 while (WriteLoop < 512)
@@ -120,21 +120,22 @@ namespace BattleScriptsTest
         {
             //Extract script and convert to readable format
             ReadPointerNormal(Rom, BattleAIConstants.MONSTER_SCRIPT_POINTERS_NORMAL);
-            ReadScriptsNormal(Rom, BattleAIConstants.MONSTER_SCRIPTS_NORMAL);
+            //ReadScriptsNormal(Rom, BattleAIConstants.MONSTER_SCRIPTS_NORMAL);
 
         }
 
-        static void ImportScriptsNormal(RomFileIO Rom, int Offset)
+        static void ImportScriptsNormal(RomFileIO Rom)
         {
             //Insert script and convert to byte format
         }
 
-        static void ExportScriptsHard(RomFileIO Rom, int Offset)
+        static void ExportScriptsHard(RomFileIO Rom)
         {
+            ReadPointerHard(Rom, BattleAIConstants.MONSTER_SCRIPT_POINTERS_HARD);
             //Extract script and convert to readable format
         }
 
-        static void ImportScriptsHard(RomFileIO Rom, int Offset)
+        static void ImportScriptsHard(RomFileIO Rom)
         {
             //Insert script and convert to byte format
         }
