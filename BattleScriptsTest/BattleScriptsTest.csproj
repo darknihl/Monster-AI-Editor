@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BattleAIConstants.cs" />
+    <Compile Include="MonsterScript.cs" />
     <Compile Include="Opcodes.cs" />
+    <Compile Include="OpcodeTranslator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RomData.cs" />

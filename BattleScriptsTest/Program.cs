@@ -9,6 +9,7 @@ namespace BattleScriptsTest
 {
     public class Program
     {
+        public const int NumPointers = 512;
         public int ScriptOffset;
 
         static void Main(string[] args)
@@ -20,20 +21,19 @@ namespace BattleScriptsTest
             Rom.Close();
         }
 
-        static void ReadPointerNormal(RomFileIO Rom, int Offset)
+        static List<int> ReadPointerNormal(RomFileIO Rom, int Offset)
         {
             if (!Directory.Exists("./Normal/"))
             {
                 Directory.CreateDirectory("./Normal/"); 
             }
-            int PointerLoop = 0;
+            int PointerIndex = 0;
             List<int> EnemyPointerNormal = new List<int>();
-            while (PointerLoop < 512*2)
+            while (PointerIndex < NumPointers)
             {
-                int Pointer = Rom.Read16(Offset + PointerLoop);
+                int Pointer = Rom.Read16(Offset + PointerIndex * 2);
                 EnemyPointerNormal.Add(Pointer);
-                PointerLoop++;
-                PointerLoop++;
+                PointerIndex++;
             }
             using (StreamWriter file = new StreamWriter("./Normal/normal_pointers.txt", false))
             {
@@ -44,6 +44,8 @@ namespace BattleScriptsTest
                     WriteLoop++;
                 }
             }
+
+            return EnemyPointerNormal;
         }
 
         static void ReadPointerHard(RomFileIO Rom, int Offset)
@@ -52,19 +54,18 @@ namespace BattleScriptsTest
             {
                 Directory.CreateDirectory("./Hard/");
             }
-            int PointerLoop = 0;
+            int PointerIndex = 0;
             List<int> EnemyPointerHard = new List<int>();
-            while (PointerLoop < 512 * 2)
+            while (PointerIndex < NumPointers)
             {
-                int Pointer = Rom.Read16(Offset + PointerLoop);
+                int Pointer = Rom.Read16(Offset + PointerIndex * 2);
                 EnemyPointerHard.Add(Pointer);
-                PointerLoop++;
-                PointerLoop++;
+                PointerIndex++;
             }
             using (StreamWriter file = new StreamWriter("./Hard/hard_pointers.txt", false))
             {
                 int WriteLoop = 0;
-                while (WriteLoop < 512)
+                while (WriteLoop < NumPointers)
                 {
                     file.WriteLine("{0:X}", EnemyPointerHard[WriteLoop]);
                     WriteLoop++;
@@ -104,9 +105,13 @@ namespace BattleScriptsTest
 
         //*********************************************************************************************//
 
-        static void ReadScriptsNormal(RomFileIO Rom, int Offset)
+        static void ReadScriptsNormal(RomFileIO Rom, int Offset, List<int> PointerList)
         {
             //TODO: loop single script read 512 times
+            for (int i = 0; i < NumPointers; i++)
+            {
+                
+            }
         }
 
         static void WriteScriptsNormal(RomFileIO Rom, int Offset)
@@ -119,8 +124,8 @@ namespace BattleScriptsTest
         static void ExportScriptsNormal(RomFileIO Rom)
         {
             //Extract script and convert to readable format
-            ReadPointerNormal(Rom, BattleAIConstants.MONSTER_SCRIPT_POINTERS_NORMAL);
-            //ReadScriptsNormal(Rom, BattleAIConstants.MONSTER_SCRIPTS_NORMAL);
+            List<int> PointerList = ReadPointerNormal(Rom, BattleAIConstants.MONSTER_SCRIPT_POINTERS_NORMAL);
+            ReadScriptsNormal(Rom, BattleAIConstants.MONSTER_SCRIPTS_NORMAL, PointerList);
 
         }
 
