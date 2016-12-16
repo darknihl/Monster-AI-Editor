@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BattleAIConstants.cs" />
     <Compile Include="MonsterScript.cs" />
     <Compile Include="Opcodes.cs" />
     <Compile Include="OpcodeTranslator.cs" />

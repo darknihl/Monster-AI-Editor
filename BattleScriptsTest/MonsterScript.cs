@@ -6,37 +6,69 @@ using System.Threading.Tasks;
 
 namespace BattleScriptsTest
 {
+    public class MonsterCommand
+    {
+        public string OpcodeName = "";
+        public List<string> ParameterList = new List<string>();
+    }
+
     public class MonsterScript
     {
         public string MonsterName = "";
-        public int PointerLoc = -1;
+        public int MonsterIndex;
+        public int PointerLoc;
 
-        public string OpcodeName = "";
+        public List<MonsterCommand> CommandList = new List<MonsterCommand>();
+        private bool PrevOpCodeEnd = false;
 
-        public List<string> ParameterList = new List<string>();
+        public MonsterScript(int Index)
+        {
+            MonsterIndex = Index;
+        }
 
         public bool LoadScriptFromOffset(RomFileIO Rom, int Offset)
         {
             OpcodeTranslator ot = OpcodeTranslator.Instance;
+            PointerLoc = Offset;
+            Rom.Seek(PointerLoc);
 
-            byte OpcodeHex = Rom.Read8(Offset);
-            Opcode op = ot.LookupOpcodeByHex(OpcodeHex);
-
-            OpcodeName = op.Name;
-
-            foreach (string ParameterName in op.Parameters)
+            while (true)
             {
-                uint ParameterHex = 0;
-                ParameterHex = Rom.Read8();
+                MonsterCommand mc = new MonsterCommand();
+                byte OpcodeHex = Rom.Read8();
 
-                foreach (Parameter p in ot.LookupParameterType(ParameterName).ParameterList)
+                Opcode op = ot.LookupOpcodeByHex(OpcodeHex);
+                mc.OpcodeName = op.Name;
+
+                foreach (string ParameterName in op.Parameters)
                 {
-                    if(p.Hex == ParameterHex)
-                        ParameterList.Add(p.Name);
+                    uint ParameterHex = 0;
+                    ParameterHex = Rom.Read8();
+
+                    if (ot.LookupParameterType(ParameterName) == null)
+                        // Remove this later when all types are in the config file
+                        mc.ParameterList.Add(String.Format("${0:X}", ParameterHex));
+                    else
+                    {
+                        foreach (Parameter p in ot.LookupParameterType(ParameterName).ParameterList)
+                        {
+                            if (p.Hex == ParameterHex)
+                                mc.ParameterList.Add(p.Name);
+                        }
+                    }
                 }
+
+                CommandList.Add(mc);
+
+                if (op.Name == "End" && PrevOpCodeEnd)
+                    break;
+                else if (op.Name == "End")
+                    PrevOpCodeEnd = true;
+                else
+                    PrevOpCodeEnd = false;
             }
 
-            return false;
+            return true;
         }
 
         public bool SaveScriptToOffset(RomFileIO ROM, int Offset)

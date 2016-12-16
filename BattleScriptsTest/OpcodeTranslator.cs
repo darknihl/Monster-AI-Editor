@@ -87,7 +87,10 @@ namespace BattleScriptsTest
             if (ParameterTypeList.ContainsKey(type))
                 return ParameterTypeList[type];
 
-            throw new KeyNotFoundException();
+            else
+                return null; // Return null for now until all types are in the config file
+
+            //throw new KeyNotFoundException();
         }
     }
 
