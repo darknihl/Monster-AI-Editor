@@ -1,0 +1,105 @@
+﻿# List for Opcodes
+# Format:
+# Opcode OpcodeName Hex NumberOfParameters ParameterType1 ParameterType2 ParameterType3 ...
+
+Opcode RandomSpell F0 3 Spell Spell Spell
+Opcode Target F1 1 TargetParam
+Opcode Formation F2 3 Zero FormationParam HPFlag
+Opcode Caption F3 2 CaptionParam Zero
+Opcode RandomCommand F4 3 Command Command Command
+Opcode Hide F5 3 AnimationParam HideParam EnemyID
+Opcode Item F6 3 ItemFlag Item Item
+Opcode Event F7 1 EventParam
+Opcode Variable F8 2 Int8 Int8
+Opcode Bit F9 3 BitParam Int8 BitFlag
+Opcode Animation FA 3 AnimationParam AnimationID Int8
+Opcode Misc FB 2 MiscActionParam TargetParam
+Opcode If FC 3 IfParam Int8 Int8
+Opcode Wait FD 0
+Opcode EndIf FE 0
+Opcode End FF 0
+
+# Lists of types and parameters
+# Format:
+# Type TypeName ValueType
+# Parameter TypeName ParameterName HexValue
+
+Type Target String
+Parameter Target Terra 00
+Parameter Target Locke 01
+Parameter Target Ceyenne 02
+Parameter Target Shadow 03
+Parameter Target Edgar 04
+Parameter Target Matthew 05
+Parameter Target Celes 06
+Parameter Target Stragus 07
+Parameter Target Setzer 08
+Parameter Target Relm 09
+Parameter Target Mog 0A
+Parameter Target Gau 0B
+Parameter Target Gogo 0C
+Parameter Target Umaro 0D
+Parameter Target Banon 0E
+Parameter Target Leo 0F
+Parameter Target Enemy1 30
+Parameter Target Enemy2 31
+Parameter Target Enemy3 32
+Parameter Target Enemy4 33
+Parameter Target Enemy5 34
+Parameter Target Enemy6 35
+Parameter Target Self 36
+Parameter Target AllEnemiesButSelf 37
+Parameter Target AllEnemies 38
+Parameter Target RandomEnemiesButSelf 39
+Parameter Target RandomEnemies 3A
+Parameter Target AllDeadAllies 3B
+Parameter Target RandomDeadAlly 3C
+Parameter Target AllDeadMonsters 3D
+Parameter Target AllDeadMonsters 3E
+Parameter Target AllAlliesWithReflect 3F
+Parameter Target RandomAllyWithReflect 40
+Parameter Target AllMonstersWithReflect 41
+Parameter Target RandomMonsterWithReflect 42
+Parameter Target AllAllies 43
+Parameter Target RandomAlly 44
+Parameter Target LastToAct 45
+Parameter Target AllAlliesAndMOnsters 46
+Parameter Target NormalTargetting 47
+Parameter Target Ally1 48
+Parameter Target Ally2 49
+Parameter Target Ally3 4A
+Parameter Target Ally4 4B
+Parameter Target SemiRandomIgnoreSelf 4C
+Parameter Target LastTargetted 4D
+
+Type Command String
+Parameter Command Attack 00
+Parameter Command Item 01
+Parameter Command Magic 02
+Parameter Command Trance 03
+Parameter Command Revert 04
+Parameter Command Steal 05
+Parameter Command Mug 06
+Parameter Command Tachi 07
+Parameter Command Throw 08
+Parameter Command Tools 09
+Parameter Command Deathblow 0A
+Parameter Command Runic 0B
+Parameter Command Lore 0C
+Parameter Command Sketch 0D
+Parameter Command Control 0E
+Parameter Command Slots 0F
+Parameter Command Rage 10
+Parameter Command Leap 11
+Parameter Command Mimic 12
+Parameter Command Dance 13
+Parameter Command Row 14
+Parameter Command Defend 15
+Parameter Command Jump 16
+Parameter Command Chainspell 17
+Parameter Command GilToss 18
+Parameter Command Summon 19
+Parameter Command Pray 1A
+Parameter Command Shock 1B
+Parameter Command Possess 1C
+Parameter Command Magitek 1D
