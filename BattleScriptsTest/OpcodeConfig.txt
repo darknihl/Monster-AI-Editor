@@ -1,6 +1,6 @@
 ﻿# List for Opcodes
 # Format:
-# Opcode OpcodeName Hex NumberOfParameters ParameterType1 ParameterType2 ParameterType3 ...
+# Opcode OpcodeName Hex NumberOfParameters [Types]
 
 Opcode RandomSpell F0 3 Spell Spell Spell
 Opcode Target F1 1 TargetParam
@@ -103,3 +103,4 @@ Parameter Command Pray 1A
 Parameter Command Shock 1B
 Parameter Command Possess 1C
 Parameter Command Magitek 1D
+

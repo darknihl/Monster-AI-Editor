@@ -9,13 +9,18 @@ namespace BattleScriptsTest
 {
     public class Program
     {
+        public const string RomFileName = @"G:\ff6test\FF6MTEST.sfc";
+        public const string ConfigFileName = @"G:\ff6test\OpcodeConfig.txt";
         public const int NumPointers = 512;
         public int ScriptOffset;
 
         static void Main(string[] args)
         {
             RomFileIO Rom = new RomFileIO();
-            Rom.Open("./FF6MTEST.sfc");
+            Rom.Open(RomFileName);
+            OpcodeTranslator ot = OpcodeTranslator.Instance;
+            ot.LoadConfigurationFile(ConfigFileName);
+
             ExportScriptsNormal(Rom);
             ExportScriptsHard(Rom);
             Rom.Close();
@@ -105,13 +110,19 @@ namespace BattleScriptsTest
 
         //*********************************************************************************************//
 
-        static void ReadScriptsNormal(RomFileIO Rom, int Offset, List<int> PointerList)
+        static List<MonsterScript> ReadScriptsNormal(RomFileIO Rom, int Offset, List<int> PointerList)
         {
+            List<MonsterScript> MonsterList = new List<MonsterScript>();
+
             //TODO: loop single script read 512 times
             for (int i = 0; i < NumPointers; i++)
             {
-                
+                MonsterScript ms = new MonsterScript();
+                ms.LoadScriptFromOffset(Rom, PointerList[i]);
+                MonsterList.Add(ms);
             }
+
+            return MonsterList;
         }
 
         static void WriteScriptsNormal(RomFileIO Rom, int Offset)
