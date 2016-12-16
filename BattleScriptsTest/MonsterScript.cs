@@ -19,7 +19,7 @@ namespace BattleScriptsTest
         public int PointerLoc;
 
         public List<MonsterCommand> CommandList = new List<MonsterCommand>();
-        private bool PrevOpCodeEnd = false;
+        private bool ActiveScriptEnded = false;
 
         public MonsterScript(int Index)
         {
@@ -60,12 +60,10 @@ namespace BattleScriptsTest
 
                 CommandList.Add(mc);
 
-                if (op.Name == "End" && PrevOpCodeEnd)
+                if (op.Name == "End" && ActiveScriptEnded)
                     break;
                 else if (op.Name == "End")
-                    PrevOpCodeEnd = true;
-                else
-                    PrevOpCodeEnd = false;
+                    ActiveScriptEnded = true;
             }
 
             return true;
