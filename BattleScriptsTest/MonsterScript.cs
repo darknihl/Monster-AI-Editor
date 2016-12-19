@@ -42,6 +42,7 @@ namespace BattleScripts
                 {
                     Rom.Seek(-1, SeekOrigin.Current);
                     OpcodeHex = Rom.Read16();
+                    OpcodeHex = ((OpcodeHex & 0x00FF) << 8) | ((OpcodeHex & 0xFF00) >> 8);
                 }
 
                 Opcode op = ot.LookupOpcodeByHex(OpcodeHex);

@@ -12,6 +12,7 @@ namespace BattleScripts
         public const string RomFileName = @"./ff6test/FF6MTEST.sfc";
         public const string ConfigFileName = @"./ff6test/OpcodeConfig.txt";
         public const string NormalScriptOutputFileName = @"./ff6test/normalscripts.txt";
+        public const string HardScriptOutputFilename = @"./ff6test/hardscripts.txt";
         public const int NumMonsters = 384;
         public int ScriptOffset;
 
@@ -23,7 +24,7 @@ namespace BattleScripts
             ot.LoadConfigurationFile(ConfigFileName);
 
             ExportScriptsNormal(Rom, NormalScriptOutputFileName);
-            //ExportScriptsHard(Rom);
+            ExportScriptsHard(Rom, HardScriptOutputFilename);
             Rom.Close();
         }
 
@@ -54,7 +55,7 @@ namespace BattleScripts
             return EnemyPointerNormal;
         }
 
-        static void ReadPointerHard(RomFileIO Rom, int Offset)
+        static List<int> ReadPointerHard(RomFileIO Rom, int Offset)
         {
             if (!Directory.Exists("./Hard/"))
             {
@@ -65,10 +66,10 @@ namespace BattleScripts
             while (PointerIndex < NumMonsters)
             {
                 int Pointer = Rom.Read16(Offset + PointerIndex * 2);
-                EnemyPointerHard.Add(Pointer);
+                EnemyPointerHard.Add(Pointer + RomData.MONSTER_AI_HARD_BANK);
                 PointerIndex++;
             }
-            using (StreamWriter file = new StreamWriter("./Hard/hard_pointers.txt", false))
+            using (StreamWriter file = new StreamWriter("./Normal/hard_pointers.txt", false))
             {
                 int WriteLoop = 0;
                 while (WriteLoop < NumMonsters)
@@ -77,6 +78,8 @@ namespace BattleScripts
                     WriteLoop++;
                 }
             }
+
+            return EnemyPointerHard;
         }
 
         //*********************************************************************************************//
@@ -131,6 +134,26 @@ namespace BattleScripts
             //TODO: loop single script read 512 times
         }
 
+        static List<MonsterScript> ReadScriptsHard(RomFileIO Rom, List<int> PointerList)
+        {
+            List<MonsterScript> MonsterList = new List<MonsterScript>();
+
+            //TODO: loop single script read 512 times
+            for (int i = 0; i < NumMonsters; i++)
+            {
+                MonsterScript ms = new MonsterScript(i);
+                ms.LoadScriptFromOffset(Rom, PointerList[i]);
+                MonsterList.Add(ms);
+            }
+
+            return MonsterList;
+        }
+
+        static void WriteScriptsHard(RomFileIO Rom, int Offset)
+        {
+            //TODO: loop single script read 512 times
+        }
+
         //*********************************************************************************************//
 
         static void ExportScriptsNormal(RomFileIO Rom, string OutputFileName)
@@ -143,7 +166,7 @@ namespace BattleScripts
             {
                 foreach (MonsterScript ms in MonsterList)
                 {
-                    file.Write("Monster idx [{0}] Pointer offset [{1}]\n", ms.MonsterIndex, ms.PointerLoc);
+                    file.Write("Monster idx [{0}] Pointer offset [{1:X}]\n", ms.MonsterIndex, ms.PointerLoc);
                     foreach (MonsterCommand mc in ms.CommandList)
                     {
                         file.Write("{0}", mc.OpcodeName);
@@ -161,10 +184,27 @@ namespace BattleScripts
             //Insert script and convert to byte format
         }
 
-        static void ExportScriptsHard(RomFileIO Rom)
+        static void ExportScriptsHard(RomFileIO Rom, string OutputFileName)
         {
-            ReadPointerHard(Rom, RomData.MONSTER_AI_HARD_POINTERS);
             //Extract script and convert to readable format
+            List<int> PointerList = ReadPointerHard(Rom, RomData.MONSTER_AI_HARD_POINTERS);
+            List<MonsterScript> MonsterList = ReadScriptsHard(Rom, PointerList);
+
+            using (StreamWriter file = new StreamWriter(OutputFileName, false))
+            {
+                foreach (MonsterScript ms in MonsterList)
+                {
+                    file.Write("Monster idx [{0}] Pointer offset [{1:X}]\n", ms.MonsterIndex, ms.PointerLoc);
+                    foreach (MonsterCommand mc in ms.CommandList)
+                    {
+                        file.Write("{0}", mc.OpcodeName);
+                        foreach (string s in mc.ParameterList)
+                            file.Write(" {0}", s);
+                        file.Write("\n");
+                    }
+                    file.Write("\n");
+                }
+            }
         }
 
         static void ImportScriptsHard(RomFileIO Rom)
