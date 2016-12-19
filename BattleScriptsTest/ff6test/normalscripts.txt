@@ -1,0 +1,6627 @@
+Monster idx [0] Pointer offset [4063232]
+If $1B $B0 $1
+If $7 $31 $14
+Target $31
+Item $0 Ether Ether
+EndIf
+Attack
+End
+End
+
+Monster idx [1] Pointer offset [4063250]
+Attack
+End
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [2] Pointer offset [4063261]
+Attack
+End
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [3] Pointer offset [4063272]
+RandomSpell Katon Suiton Attack
+Wait
+RandomSpell Katon Attack Raiton
+Wait
+RandomSpell Attack Suiton Raiton
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+Target $36
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [4] Pointer offset [4063303]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [5] Pointer offset [4063314]
+RandomSpell Special Special Mysidian_Rabbit
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Bio Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [6] Pointer offset [4063350]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Fire Fira Fira
+End
+End
+
+Monster idx [7] Pointer offset [4063361]
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Wind_Slash Attack Mysidian_Rabbit
+RandomSpell Wind_Slash Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+Special
+End
+
+Monster idx [8] Pointer offset [4063403]
+RandomSpell Drain Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Drain Mysidian_Rabbit
+End
+End
+
+Monster idx [9] Pointer offset [4063414]
+RandomSpell Special Silence Mysidian_Rabbit
+Wait
+RandomSpell Blizzara Thundara Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Cura Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [10] Pointer offset [4063438]
+If $13 $1 $1
+RandomSpell Attack Thundata Thundata
+EndIf
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Flash_Rain Flash_Rain
+End
+End
+
+Monster idx [11] Pointer offset [4063458]
+RandomSpell Attack Attack Special
+End
+If $1 $9 $9
+RandomSpell Mysidian_Rabbit Attack Special
+If $4 $8 $0
+Misc $F $10
+End
+
+Monster idx [12] Pointer offset [4063479]
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Level_5_Doom Level_4_Flare Level_3_Confuse
+End
+
+Monster idx [13] Pointer offset [4063502]
+RandomSpell Doom Roulette Aqua_Breath
+Wait
+RandomSpell Revenge_Blast White_Wind Level_5_Doom
+Wait
+RandomSpell Level_4_Flare Level_3_Confuse Reflect_
+Wait
+RandomSpell Level_2_Bioga Traveller Launcher
+Wait
+RandomSpell Dischord Bad_Breath Imp_Song
+Wait
+RandomSpell Aero Needles Self_Destruct
+Wait
+RandomSpell Rippler Stone Quasar
+End
+End
+
+Monster idx [14] Pointer offset [4063538]
+Target $44
+RandomSpell Gravity Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Gravity Mysidian_Rabbit
+End
+End
+
+Monster idx [15] Pointer offset [4063551]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+Attack
+Wait
+RandomSpell Dread_Gaze Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [16] Pointer offset [4063568]
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Crypt_Dust
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [17] Pointer offset [4063584]
+If $13 $1 $1
+Special
+RandomSpell Attack Attack Mysidian_Rabbit
+EndIf
+Attack
+End
+End
+
+Monster idx [18] Pointer offset [4063597]
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $4 $2 $0
+Attack
+Attack
+Special
+End
+
+Monster idx [19] Pointer offset [4063610]
+RandomSpell Attack Attack Special
+Wait
+If $D $4 $1
+If $F $43 $7
+Target $E
+Poison
+End
+End
+
+Monster idx [20] Pointer offset [4063628]
+RandomCommand Steal Steal
+Wait
+Target $36
+Flee
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomCommand Steal
+End
+
+Monster idx [21] Pointer offset [4063651]
+RandomSpell Attack Attack Thunder
+Wait
+RandomSpell Attack Attack Special
+End
+If $1 $2 $2
+If $D $4 $2
+Megavolt
+EndIf
+If $D $4 $1
+RandomSpell Special Thunder Thunder
+End
+
+Monster idx [22] Pointer offset [4063680]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Gigavolt Snowstorm Freezing_Dust
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Gigavolt Snowstorm Freezing_Dust
+Wait
+RandomSpell Northern_Cross Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [23] Pointer offset [4063706]
+If $C $4 $1
+Target $44
+RandomSpell Attack Attack Cure
+EndIf
+Attack
+End
+End
+
+Monster idx [24] Pointer offset [4063720]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [25] Pointer offset [4063736]
+If $F $44 $5
+Special
+EndIf
+Attack
+End
+End
+
+Monster idx [26] Pointer offset [4063745]
+If $13 $1 $1
+Target $36
+Flee
+EndIf
+Attack
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Special Special Mysidian_Rabbit
+End
+
+Monster idx [27] Pointer offset [4063769]
+If $F $44 $5
+Target $43
+Snowstorm
+EndIf
+If $D $4 $2
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Snowstorm Special Special
+EndIf
+Attack
+End
+End
+
+Monster idx [28] Pointer offset [4063794]
+If $13 $1 $1
+Special
+EndIf
+RandomSpell Attack Attack Special
+Wait
+End
+End
+
+Monster idx [29] Pointer offset [4063807]
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Snort Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [30] Pointer offset [4063832]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Snort Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [31] Pointer offset [4063861]
+If $13 $1 $1
+RandomSpell Attack Attack Snowstorm
+Wait
+RandomSpell Attack Attack Fireball
+Wait
+RandomSpell Attack Attack Cyclonic
+EndIf
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Aqua_Breath
+End
+End
+
+Monster idx [32] Pointer offset [4063893]
+RandomSpell Attack Special Mysidian_Rabbit
+End
+If $1 $19 $19
+RandomSpell Meteo Meteo Mysidian_Rabbit
+EndIf
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Special Special Mysidian_Rabbit
+End
+
+Monster idx [33] Pointer offset [4063920]
+If $13 $1 $1
+RandomSpell Attack Special Special
+EndIf
+Target $36
+RandomSpell Flee Flee Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [34] Pointer offset [4063950]
+If $D $0 $3
+Variable $0 $0
+Target $E
+RandomSpell Attack Attack Attack
+EndIf
+Attack
+Variable $0 $81
+Wait
+RandomSpell Attack Attack Special
+Variable $0 $81
+Wait
+RandomSpell Attack Special Fireball
+Variable $0 $81
+End
+End
+
+Monster idx [35] Pointer offset [4063986]
+RandomSpell Attack Sandstorm Special
+End
+If $1 $0 $0
+RandomSpell Sandstorm Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [36] Pointer offset [4064000]
+RandomSpell Holy Holy Mysidian_Rabbit
+RandomSpell Holy Holy Mysidian_Rabbit
+RandomSpell Holy Mysidian_Rabbit Mysidian_Rabbit
+Wait
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $1 $2 $2
+Target $43
+RandomSpell Dispel Dispel Mysidian_Rabbit
+End
+
+Monster idx [37] Pointer offset [4064034]
+RandomSpell Southern_Cross Attack Attack
+Wait
+RandomSpell Southern_Cross Attack Attack
+Wait
+RandomSpell Southern_Cross Attack Attack
+Wait
+RandomSpell Southern_Cross Attack Attack
+Wait
+RandomSpell Northern_Cross Flare_Star Attack
+Target $36
+RandomSpell Special Special Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+Target $43
+RandomSpell Heartless_Angel Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [38] Pointer offset [4064081]
+RandomSpell Attack Attack Disaster
+Wait
+RandomSpell Attack Attack Meteor
+Wait
+RandomSpell Attack Attack Snort
+Wait
+RandomSpell Attack Attack Ultima
+Wait
+Special
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [39] Pointer offset [4064116]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Meteor
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [40] Pointer offset [4064132]
+If $D $4 $1
+If $9 $48 $8
+If $9 $49 $8
+If $9 $4A $8
+If $9 $4B $8
+Target $44
+Doom
+EndIf
+RandomSpell Attack Special Attack
+End
+If $1 $5 $6
+RandomSpell Break Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [41] Pointer offset [4064170]
+Attack
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [42] Pointer offset [4064195]
+If $13 $1 $1
+RandomSpell Special Shamshir Shamshir
+EndIf
+RandomSpell Attack Shamshir Attack
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [43] Pointer offset [4064215]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Special Aero
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Attack Cyclonic Mysidian_Rabbit
+End
+
+Monster idx [44] Pointer offset [4064244]
+Attack
+Wait
+Attack
+Wait
+RandomSpell Attack Attack Net
+End
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [45] Pointer offset [4064266]
+RandomSpell Special Level_5_Doom Mysidian_Rabbit
+Wait
+RandomSpell Special Level_4_Flare Mysidian_Rabbit
+Wait
+RandomSpell Special Level_3_Confuse Mysidian_Rabbit
+End
+End
+
+Monster idx [46] Pointer offset [4064282]
+If $D $4 $2
+Target $0
+Silence_
+Wait
+RandomSpell Attack Special Attack
+EndIf
+RandomSpell Attack Silence_ Special
+End
+End
+
+Monster idx [47] Pointer offset [4064301]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [48] Pointer offset [4064312]
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Megavolt
+End
+End
+
+Monster idx [49] Pointer offset [4064325]
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [50] Pointer offset [4064344]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Special Special
+End
+If $4 $8 $0
+Misc $10 $A
+End
+
+Monster idx [51] Pointer offset [4064362]
+RandomSpell Attack Attack Entice
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [52] Pointer offset [4064373]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Lifeshaver Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [53] Pointer offset [4064401]
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Bio Bio Attack
+End
+End
+
+Monster idx [54] Pointer offset [4064414]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [55] Pointer offset [4064430]
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [56] Pointer offset [4064436]
+If $D $24 $2
+Variable $24 $0
+Target $E
+Attack
+EndIf
+RandomSpell Attack Attack Special
+Variable $24 $81
+Wait
+RandomSpell Special Blizzard Attack
+Target $43
+End
+End
+
+Monster idx [57] Pointer offset [4064463]
+If $D $24 $2
+Variable $24 $0
+Target $E
+Special
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Variable $24 $81
+End
+End
+
+Monster idx [58] Pointer offset [4064488]
+If $13 $1 $1
+RandomSpell Attack Attack Aqua_Breath
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [59] Pointer offset [4064513]
+RandomSpell Attack Attack Special
+Wait
+RandomCommand Jump Jump Jump
+Wait
+RandomSpell Attack Attack Rippler
+End
+End
+
+Monster idx [60] Pointer offset [4064529]
+RandomSpell Attack Attack Special
+Wait
+Attack
+Wait
+Attack
+End
+End
+
+Monster idx [61] Pointer offset [4064539]
+If $13 $1 $1
+RandomSpell Attack Attack Quake
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [62] Pointer offset [4064564]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Snort
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Sandstorm Sandstorm Mysidian_Rabbit
+RandomSpell Sandstorm Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [63] Pointer offset [4064597]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Venomist
+End
+If $1 $5 $6
+Target $45
+Special
+EndIf
+If $1 $0 $0
+RandomSpell Reverse_Polarity Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [64] Pointer offset [4064634]
+Snort
+End
+End
+
+Monster idx [65] Pointer offset [4064637]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Self_Destruct Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [66] Pointer offset [4064661]
+If $F $44 $7
+Misc $25 $3C
+Misc $28 $3C
+RandomSpell Special Special Magitek_Laser
+Wait
+Tek_Missile
+EndIf
+RandomSpell Magitek_Laser Attack Special
+End
+If $14 $C $1
+If $1 $2 $2
+If $15 $9 $1
+Bit $0 $9 $1
+Event $6
+End
+
+Monster idx [67] Pointer offset [4064702]
+If $13 $1 $1
+RandomSpell Special Magitek_Laser Missile
+EndIf
+RandomSpell Magitek_Laser Magitek_Laser Mysidian_Rabbit
+Wait
+RandomSpell Magitek_Laser Special Mysidian_Rabbit
+End
+End
+
+Monster idx [68] Pointer offset [4064722]
+If $B $C8 $0
+If $15 $0 $0
+Bit $1 $0 $0
+Animation $9 $F1 $30
+Caption $44 $0
+Hide $3 $0 $3C
+Misc $0 $0
+EndIf
+If $B $50 $0
+If $15 $0 $1
+Bit $1 $0 $1
+Animation $9 $F1 $30
+Caption $44 $0
+Hide $3 $0 $1C
+EndIf
+If $B $19 $0
+If $15 $0 $2
+Bit $1 $0 $2
+Animation $9 $F1 $30
+Caption $44 $0
+Hide $3 $0 $C
+EndIf
+If $D $3 $3
+Dischord
+Variable $3 $0
+EndIf
+RandomSpell Attack Attack Scintillation
+Wait
+RandomSpell Attack Special Magitek_Laser
+Wait
+RandomSpell Attack Attack Missile
+Wait
+Variable $3 $81
+End
+If $1 $A $A
+Mega_Berserk
+End
+
+Monster idx [69] Pointer offset [4064831]
+If $13 $1 $1
+RandomSpell Diffusion_Laser Launcher Missile
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [70] Pointer offset [4064846]
+RandomSpell Special Attack Attack
+Wait
+If $F $43 $7
+If $9 $44 $12
+If $D $4 $2
+Slowga
+Wait
+RandomSpell Blizzard Attack Special
+End
+End
+
+Monster idx [71] Pointer offset [4064871]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Sticky_Goo
+End
+If $12 $0 $0
+If $1B $64 $1
+If $19 $1 $0
+Hide $8 $3 $1
+Hide $2 $0 $22
+Hide $0 $1 $1
+EndIf
+If $12 $0 $0
+If $1B $64 $1
+If $19 $2 $0
+If $13 $1 $0
+Hide $8 $3 $2
+Hide $2 $0 $1C
+Hide $0 $1 $2
+EndIf
+If $12 $0 $0
+If $1B $64 $1
+If $19 $20 $0
+If $13 $1 $0
+Hide $8 $3 $20
+Hide $2 $0 $1C
+Hide $0 $1 $20
+End
+
+Monster idx [72] Pointer offset [4064964]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Lifeshaver
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+If $13 $1 $1
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [73] Pointer offset [4064992]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Wait
+Attack
+End
+End
+
+Monster idx [74] Pointer offset [4065005]
+If $13 $1 $1
+RandomSpell Attack Attack Needles
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [75] Pointer offset [4065020]
+RandomSpell Fira Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Sticky_Goo
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [76] Pointer offset [4065036]
+Caption $86 $0
+Wait
+Needles
+Wait
+Caption $86 $0
+Wait
+Needles
+Wait
+Caption $86 $0
+Wait
+Needles
+Wait
+Caption $87 $0
+Wait
+Needles
+Needles
+Needles
+Needles
+Needles
+Needles
+Needles
+Needles
+Needles
+Needles
+End
+End
+
+Monster idx [77] Pointer offset [4065070]
+RandomSpell Attack Attack Special
+Wait
+If $F $44 $7
+Target $47
+Special
+Target $47
+Special
+End
+If $5 $0 $0
+Target $45
+RandomSpell Special Special Mysidian_Rabbit
+EndIf
+End
+
+Monster idx [78] Pointer offset [4065098]
+RandomSpell Attack Attack Special
+Wait
+Item $0 Hi-Potion Hi-Potion
+Wait
+RandomSpell Attack Attack Special
+Wait
+Item $1 Mythril_Knife Mythril_Knife
+End
+If $1 $5 $6
+RandomCommand Steal Steal Mug
+End
+
+Monster idx [79] Pointer offset [4065127]
+RandomSpell Blaze Mysidian_Rabbit Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Self_Destruct Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [80] Pointer offset [4065146]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Lullaby
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+Target $47
+Doom
+End
+
+Monster idx [81] Pointer offset [4065169]
+If $13 $1 $1
+RandomSpell Attack Meteo Freezing_Dust
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [82] Pointer offset [4065184]
+If $10 $0 $0
+RandomSpell Fira Blizzara Thundara
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [83] Pointer offset [4065204]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+Target $43
+RandomSpell Magnitude_8 Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [84] Pointer offset [4065230]
+Traveller
+End
+If $5 $0 $0
+Special
+Traveller
+End
+
+Monster idx [85] Pointer offset [4065239]
+If $8 $43 $7
+RandomSpell Raise Raise Arise
+Target $36
+RandomSpell Flee Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $8 $43 $6
+Item $0 Gold_Needle Gold_Needle
+Target $36
+RandomSpell Flee Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+Target $44
+Item $0 Panacea Ether
+Target $36
+RandomSpell Flee Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Target $44
+Item $0 Hi-Potion Elixir
+Target $36
+RandomSpell Flee Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Target $44
+Item $0 Ether Turbo_Ether
+Target $36
+RandomSpell Flee Mysidian_Rabbit Mysidian_Rabbit
+End
+If $5 $0 $0
+Target $36
+RandomSpell Flee Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [86] Pointer offset [4065319]
+If $13 $1 $1
+RandomSpell Mighty_Guard Needles Needles
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [87] Pointer offset [4065334]
+If $13 $1 $1
+RandomSpell Dischord Leech Special
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [88] Pointer offset [4065349]
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Special
+Attack
+Attack
+End
+If $1 $2 $2
+RandomSpell Sun_Bath Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [89] Pointer offset [4065370]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $1 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $5 $0 $0
+RandomSpell Gigavolt Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [90] Pointer offset [4065398]
+RandomSpell Fire Fire Mysidian_Rabbit
+Wait
+RandomSpell Attack Special Dancing_Flame
+End
+End
+
+Monster idx [91] Pointer offset [4065409]
+If $13 $1 $1
+RandomSpell Dischord Leech Special
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [92] Pointer offset [4065424]
+RandomSpell Attack Special Attack
+Wait
+RandomSpell Attack Special Special
+Wait
+Fire
+End
+End
+
+Monster idx [93] Pointer offset [4065437]
+If $F $0 $7
+RandomSpell Special Special Fira
+Wait
+Attack
+EndIf
+Attack
+End
+If $4 $1 $0
+Target $45
+Drain
+End
+
+Monster idx [94] Pointer offset [4065458]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [95] Pointer offset [4065469]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+RandomSpell Sandstorm Sandstorm Mysidian_Rabbit
+Wait
+RandomSpell Special Sandstorm Sandstorm
+End
+End
+
+Monster idx [96] Pointer offset [4065489]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [97] Pointer offset [4065500]
+Attack
+Wait
+RandomSpell Attack Attack Bad_Breath
+Wait
+RandomSpell Attack Special Mysidian_Rabbit
+End
+End
+
+Monster idx [98] Pointer offset [4065513]
+If $D $4 $2
+RandomSpell Blizzard Attack Special
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [99] Pointer offset [4065528]
+If $D $4 $2
+Target $44
+Poison
+Wait
+RandomSpell Special Attack Special
+EndIf
+RandomSpell Attack Attack Special
+End
+If $4 $8 $0
+Target $45
+Special
+End
+
+Monster idx [100] Pointer offset [4065554]
+If $D $0 $1
+Attack
+Variable $24 $0
+EndIf
+If $9 $36 $16
+If $D $4 $2
+Mighty_Guard
+Variable $24 $1
+Variable $0 $1
+EndIf
+If $D $4 $1
+Net
+Variable $0 $1
+EndIf
+If $D $4 $0
+Attack
+EndIf
+If $13 $1 $1
+RandomSpell Attack Special Special
+EndIf
+End
+If $1 $16 $16
+RandomSpell Special Special Mysidian_Rabbit
+End
+
+Monster idx [101] Pointer offset [4065613]
+Attack
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $1 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [102] Pointer offset [4065629]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Cura
+End
+End
+
+Monster idx [103] Pointer offset [4065640]
+RandomSpell Attack Attack Wind_Slash
+Wait
+RandomSpell Katon Suiton Raiton
+End
+If $1 $8 $8
+Item $1 Shuriken Fuma_Shuriken
+EndIf
+If $1 $0 $0
+Target $36
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [104] Pointer offset [4065670]
+RandomSpell Special Special Mysidian_Rabbit
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+If $1 $2 $2
+RandomSpell Bio Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [105] Pointer offset [4065701]
+If $13 $1 $1
+Holy
+EndIf
+RandomSpell Special Special Mysidian_Rabbit
+Wait
+RandomSpell Special Special Holy
+End
+End
+
+Monster idx [106] Pointer offset [4065718]
+If $8 $38 $17
+Curaga
+EndIf
+RandomSpell Holy Flare Imp
+Wait
+RandomSpell Cura Regenga Protect
+RandomSpell Special Special Mysidian_Rabbit
+Wait
+RandomSpell Cura Regenga Protect
+RandomSpell Firaga Blizzaga Thundata
+Wait
+RandomSpell Esuna Cura Shell
+RandomSpell Firaga Blizzaga Thundata
+Wait
+RandomSpell Regen Esuna Haste
+RandomSpell Firaga Blizzaga Thundata
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+Target $47
+RandomSpell Cura Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Meteor Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [107] Pointer offset [4065785]
+If $13 $1 $1
+RandomSpell Attack Thundara Thundara
+EndIf
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Acid_Rain Mysidian_Rabbit
+Wait
+RandomSpell Attack Acid_Rain Acid_Rain
+End
+End
+
+Monster idx [108] Pointer offset [4065810]
+If $13 $1 $1
+RandomSpell Attack Stone Stone
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [109] Pointer offset [4065830]
+If $13 $1 $1
+RandomSpell Level_5_Doom Level_4_Flare Level_3_Confuse
+Wait
+RandomSpell Blaze Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [110] Pointer offset [4065850]
+Attack
+Wait
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Imp_Song Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [111] Pointer offset [4065873]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Soul_Extraction
+End
+End
+
+Monster idx [112] Pointer offset [4065884]
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Crypt_Dust
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [113] Pointer offset [4065900]
+If $13 $1 $1
+Target $36
+Flee
+EndIf
+Attack
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [114] Pointer offset [4065924]
+RandomSpell Attack White_Wind Special
+End
+End
+
+Monster idx [115] Pointer offset [4065930]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $10 $0 $0
+If $1 $2 $2
+Target $36
+Flee
+End
+
+Monster idx [116] Pointer offset [4065952]
+RandomSpell Special Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [117] Pointer offset [4065968]
+If $10 $0 $0
+RandomSpell Attack Attack Regenga
+EndIf
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [118] Pointer offset [4065988]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [119] Pointer offset [4065999]
+If $13 $1 $1
+RandomSpell Fireball Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [120] Pointer offset [4066019]
+If $13 $1 $1
+RandomSpell Special Attack Attack
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [121] Pointer offset [4066034]
+If $13 $1 $1
+Target $36
+Flee
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [122] Pointer offset [4066053]
+Attack
+End
+If $1 $9 $9
+RandomSpell Special Special Attack
+End
+
+Monster idx [123] Pointer offset [4066064]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [124] Pointer offset [4066075]
+RandomSpell Attack Attack Special
+End
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Snort Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [125] Pointer offset [4066093]
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Snort Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [126] Pointer offset [4066112]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+Special
+RandomSpell Snowstorm Fireball Gigavolt
+RandomSpell Magnitude_8 Aqua_Breath Gigavolt
+RandomSpell Magnitude_8 Snowstorm Fireball
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [127] Pointer offset [4066155]
+If $8 $48 $F
+If $9 $48 $7
+Caption $8A $0
+Target $48
+Attack
+Attack
+Attack
+Attack
+EndIf
+If $8 $49 $F
+If $9 $49 $7
+Caption $8A $0
+Target $49
+Attack
+Attack
+Attack
+Attack
+EndIf
+If $8 $4A $F
+If $9 $4A $7
+Caption $8A $0
+Target $4A
+Attack
+Attack
+Attack
+Attack
+EndIf
+If $8 $4B $F
+If $9 $4B $7
+Caption $8A $0
+Target $4B
+Attack
+Attack
+Attack
+Attack
+EndIf
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Attack Death Attack
+Wait
+RandomSpell Mysidian_Rabbit Meteo Special
+End
+If $12 $0 $0
+Hide $B $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [128] Pointer offset [4066260]
+Attack
+Wait
+RandomSpell Attack Fireball Special
+End
+End
+
+Monster idx [129] Pointer offset [4066268]
+If $13 $1 $1
+RandomSpell Attack Attack Cyclonic
+EndIf
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [130] Pointer offset [4066293]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [131] Pointer offset [4066314]
+RandomSpell Attack Attack Revenge_Blast
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Snowstorm
+Wait
+RandomSpell Attack Attack Freezing_Dust
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Snort Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [132] Pointer offset [4066348]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Lifeshaver Lifeshaver Mysidian_Rabbit
+RandomSpell Lifeshaver Lifeshaver Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Atomic_Ray Lifeshaver Special
+Wait
+RandomSpell Atomic_Ray Lifeshaver Special
+End
+End
+
+Monster idx [133] Pointer offset [4066378]
+RandomSpell Special Mysidian_Rabbit Venomist
+End
+End
+
+Monster idx [134] Pointer offset [4066384]
+If $13 $1 $1
+Attack
+EndIf
+RandomSpell Attack Attack Special
+End
+If $2 $0 $3
+RandomSpell Attack Attack Mysidian_Rabbit
+If $1 $9 $9
+RandomSpell Special Mysidian_Rabbit Attack
+End
+
+Monster idx [135] Pointer offset [4066412]
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack White_Wind
+End
+End
+
+Monster idx [136] Pointer offset [4066425]
+If $13 $1 $1
+Shamshir
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [137] Pointer offset [4066437]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Aero
+Wait
+RandomSpell Attack Attack White_Wind
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [138] Pointer offset [4066458]
+Attack
+Wait
+RandomSpell Attack Attack Net
+End
+If $12 $0 $0
+EndIf
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [139] Pointer offset [4066483]
+RandomSpell Special Special Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+Attack
+End
+
+Monster idx [140] Pointer offset [4066499]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $13 $1 $1
+If $1 $5 $6
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [141] Pointer offset [4066522]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [142] Pointer offset [4066538]
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Forest_Heal
+Wait
+RandomSpell Attack Attack Meercat
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [143] Pointer offset [4066561]
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [144] Pointer offset [4066580]
+If $13 $1 $1
+Attack
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [145] Pointer offset [4066597]
+If $13 $1 $1
+RandomSpell Attack Attack Venomist
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [146] Pointer offset [4066612]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $13 $1 $1
+If $5 $0 $0
+RandomSpell Lifeshaver Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [147] Pointer offset [4066640]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Bio Bio Attack
+Wait
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [148] Pointer offset [4066661]
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+Attack
+Wait
+Attack
+End
+End
+
+Monster idx [149] Pointer offset [4066673]
+If $13 $1 $1
+RandomSpell Special Magitek_Laser Missile
+EndIf
+RandomSpell Magitek_Laser Magitek_Laser Reverse_Polarity
+Wait
+RandomSpell Magitek_Laser Reverse_Polarity Mysidian_Rabbit
+End
+End
+
+Monster idx [150] Pointer offset [4066693]
+Attack
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Tentacle Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [151] Pointer offset [4066706]
+If $13 $1 $1
+RandomSpell Special Special Mysidian_Rabbit
+RandomSpell Special Special Mysidian_Rabbit
+EndIf
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [152] Pointer offset [4066727]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Sticky_Goo
+Wait
+RandomSpell Attack Attack Rippler
+End
+End
+
+Monster idx [153] Pointer offset [4066748]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [154] Pointer offset [4066764]
+If $13 $1 $1
+RandomSpell Attack Attack Quake
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [155] Pointer offset [4066784]
+RandomSpell Magnitude_8 Magnitude_8 Hailstone
+Wait
+RandomSpell Magnitude_8 Magnitude_8 Hailstone
+Wait
+RandomSpell Magnitude_8 Special Hailstone
+End
+End
+
+Monster idx [156] Pointer offset [4066800]
+RandomSpell Attack Attack Special
+End
+If $1 $5 $6
+Target $45
+Special
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [157] Pointer offset [4066822]
+If $13 $1 $1
+RandomSpell Launcher Metal_Cutter Magitek_Laser
+EndIf
+RandomSpell Magitek_Laser Attack Special
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Launcher Metal_Cutter Mysidian_Rabbit
+End
+
+Monster idx [158] Pointer offset [4066850]
+If $13 $1 $1
+Imp_Song
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Target $36
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [159] Pointer offset [4066868]
+If $15 $0 $0
+If $17 $6 $0
+Bit $1 $0 $0
+Target $36
+Magitek_Barrier
+EndIf
+If $13 $0 $4
+RandomSpell Attack Magitek_Laser Special
+Wait
+RandomSpell Attack Attack Missile
+EndIf
+Attack
+Wait
+RandomSpell Attack Magitek_Laser Special
+End
+End
+
+Monster idx [160] Pointer offset [4066906]
+If $1B $7B $0
+If $13 $1 $1
+Variable $0 $0
+Animation $9 $F1 $30
+Hide $2 $0 $4
+Hide $2 $0 $8
+Hide $2 $0 $10
+EndIf
+Target $36
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Plasma
+Wait
+RandomSpell Attack Attack Dischord
+Wait
+RandomSpell Attack Attack Magitek_Laser
+End
+If $1B $7A $0
+If $12 $0 $0
+Hide $B $4 $1
+Animation $9 $F1 $30
+Hide $2 $0 $10
+Hide $2 $0 $8
+Hide $2 $0 $4
+Hide $0 $1 $1
+EndIf
+If $1 $7 $A
+Bit $1 $0 $0
+End
+
+Monster idx [161] Pointer offset [4066998]
+Special
+Wait
+RandomSpell Wave_Cannon Gravity_Bomb Launcher
+Wait
+RandomSpell Gravity_Bomb Gravity_Bomb Atomic_Ray
+Wait
+RandomSpell Special Launcher Wave_Cannon
+Wait
+RandomSpell Special Wave_Cannon Launcher
+End
+If $12 $0 $0
+Atomic_Ray
+End
+
+Monster idx [162] Pointer offset [4067026]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [163] Pointer offset [4067037]
+If $6 $36 $A
+Target $36
+Flee
+EndIf
+If $14 $24 $0
+Meteo
+Target $36
+Special
+Bit $2 $24 $0
+EndIf
+End
+If $12 $0 $0
+Meteo
+EndIf
+If $5 $0 $0
+Bit $1 $24 $0
+End
+
+Monster idx [164] Pointer offset [4067074]
+RandomSpell Attack Attack Lifeshaver
+Wait
+RandomSpell Attack Lifeshaver Lifeshaver
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [165] Pointer offset [4067090]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [166] Pointer offset [4067101]
+If $13 $1 $1
+RandomSpell Tsunami Aqua_Breath Special
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [167] Pointer offset [4067116]
+RandomSpell Attack Attack Special
+Wait
+Target $36
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Flee
+End
+End
+
+Monster idx [168] Pointer offset [4067129]
+If $13 $1 $1
+RandomSpell Attack Special Special
+EndIf
+RandomSpell Attack Attack Special
+End
+If $1 $0 $0
+If $9 $36 $4
+Target $36
+Vanish
+End
+
+Monster idx [169] Pointer offset [4067155]
+RandomSpell Special Attack Mysidian_Rabbit
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+End
+End
+
+Monster idx [170] Pointer offset [4067167]
+RandomSpell Blaze Mysidian_Rabbit Special
+Wait
+RandomSpell Blaze Fireball Mysidian_Rabbit
+Wait
+RandomSpell Blaze Fireball Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Self_Destruct Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [171] Pointer offset [4067196]
+RandomSpell Attack Roulette Special
+Wait
+RandomSpell Attack Level_2_Bioga Lullaby
+Wait
+RandomSpell Attack Attack Doom
+End
+End
+
+Monster idx [172] Pointer offset [4067212]
+RandomSpell Revenge_Blast Diabolic_Whistle Mysidian_Rabbit
+Wait
+RandomSpell Revenge_Blast Absolute_Zero Mysidian_Rabbit
+Wait
+RandomSpell Diabolic_Whistle Absolute_Zero Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [173] Pointer offset [4067241]
+Item $1 Dagger Mythril_Knife
+Wait
+Item $1 Mythril_Knife Main_Gauche
+Wait
+Item $1 Air_Knife Thief's_Knife
+Wait
+Item $1 Thief's_Knife Assassin_Dagger
+End
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [174] Pointer offset [4067270]
+Special
+Special
+Special
+Wait
+Attack
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+Attack
+Attack
+Special
+End
+
+Monster idx [175] Pointer offset [4067289]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Blizzard Blizzara Blizzara
+End
+End
+
+Monster idx [176] Pointer offset [4067300]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [177] Pointer offset [4067311]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Gigavolt Gigavolt Mysidian_Rabbit
+End
+
+Monster idx [178] Pointer offset [4067340]
+Special
+End
+End
+
+Monster idx [179] Pointer offset [4067343]
+If $13 $1 $1
+Attack
+EndIf
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+If $13 $1 $1
+If $12 $0 $0
+RandomSpell Magnitude_8 Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [180] Pointer offset [4067369]
+If $13 $1 $1
+Gigavolt
+EndIf
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+Target $36
+Megavolt
+End
+
+Monster idx [181] Pointer offset [4067393]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Acid_Rain Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $5 $0 $0
+RandomSpell Flash_Rain Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [182] Pointer offset [4067426]
+RandomSpell Special Special Mysidian_Rabbit
+Wait
+RandomSpell Fire Blizzard Thunder
+Wait
+Special
+End
+End
+
+Monster idx [183] Pointer offset [4067439]
+If $13 $1 $1
+Bad_Breath
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [184] Pointer offset [4067464]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Special Mysidian_Rabbit
+End
+End
+
+Monster idx [185] Pointer offset [4067475]
+RandomSpell Magnitude_8 Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Magnitude_8 Magnitude_8
+End
+End
+
+Monster idx [186] Pointer offset [4067486]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [187] Pointer offset [4067497]
+If $B $3C $0
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Target $43
+Atomic_Ray
+Misc $0 $0
+EndIf
+RandomSpell Death Doom Mysidian_Rabbit
+End
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Death
+End
+
+Monster idx [188] Pointer offset [4067543]
+If $13 $1 $1
+RandomSpell Attack Attack Needles
+EndIf
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Needles Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [189] Pointer offset [4067571]
+Item $1 Kunai Ashura
+Wait
+Item $1 Kodachi Kotetsu
+Wait
+Item $1 Sakura_Fubuki Kiku-ichimonji
+Wait
+Item $1 Sasuke's_Katana Kazekiri
+Wait
+Item $1 Ichigeki Murasame
+Wait
+Target $36
+RandomSpell Special Special Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+Item $1 Shuriken Shuriken
+EndIf
+If $5 $0 $0
+Item $1 Fuma_Shuriken Pinwheel
+End
+
+Monster idx [190] Pointer offset [4067626]
+Target $44
+Imp
+Wait
+RandomSpell Drain Overture Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Special Special Mysidian_Rabbit
+End
+
+Monster idx [191] Pointer offset [4067649]
+If $13 $1 $1
+RandomSpell Attack El_Nino El_Nino
+EndIf
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Flash_Rain Flash_Rain
+End
+End
+
+Monster idx [192] Pointer offset [4067669]
+RandomSpell Attack Attack Drain
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Drain Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [193] Pointer offset [4067693]
+If $13 $1 $1
+RandomSpell Shockwave Shockwave Mysidian_Rabbit
+RandomSpell Shockwave Shockwave Mysidian_Rabbit
+RandomSpell Shockwave Shockwave Mysidian_Rabbit
+EndIf
+RandomSpell Attack Attack Crypt_Dust
+End
+If $5 $0 $0
+If $12 $0 $0
+EndIf
+RandomSpell Special Special Mysidian_Rabbit
+End
+
+Monster idx [194] Pointer offset [4067729]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [195] Pointer offset [4067745]
+RandomSpell Attack Attack Special
+Wait
+Attack
+End
+If $1 $0 $0
+Target $44
+RandomSpell Cure Cura Esuna
+End
+
+Monster idx [196] Pointer offset [4067763]
+RandomSpell Silence Syphon Mysidian_Rabbit
+Wait
+RandomSpell Rasp Stop Mysidian_Rabbit
+Wait
+RandomSpell Confuse Sleep Mysidian_Rabbit
+End
+If $1 $2 $2
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [197] Pointer offset [4067787]
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Attack Special Mysidian_Rabbit
+End
+
+Monster idx [198] Pointer offset [4067808]
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [199] Pointer offset [4067814]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+Attack
+End
+End
+
+Monster idx [200] Pointer offset [4067826]
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Special
+Attack
+Attack
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Wind_Slash Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [201] Pointer offset [4067852]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Stone
+End
+End
+
+Monster idx [202] Pointer offset [4067863]
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [203] Pointer offset [4067871]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+Attack
+End
+End
+
+Monster idx [204] Pointer offset [4067883]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+Attack
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [205] Pointer offset [4067900]
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [206] Pointer offset [4067908]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [207] Pointer offset [4067919]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [208] Pointer offset [4067930]
+RandomSpell Attack Attack Special
+Wait
+Attack
+End
+End
+
+Monster idx [209] Pointer offset [4067938]
+If $10 $0 $0
+If $1B $70 $0
+If $10 $0 $0
+Hide $3 $0 $18
+EndIf
+If $1B $71 $0
+If $10 $0 $0
+Hide $3 $0 $1A
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [210] Pointer offset [4067979]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Special Attack Attack
+End
+End
+
+Monster idx [211] Pointer offset [4067990]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [212] Pointer offset [4068001]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Special Mysidian_Rabbit
+End
+End
+
+Monster idx [213] Pointer offset [4068012]
+RandomSpell Attack Attack Sandstorm
+Wait
+RandomSpell Attack Special Sandstorm
+End
+End
+
+Monster idx [214] Pointer offset [4068023]
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+If $1 $0 $0
+RandomSpell Snort Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [215] Pointer offset [4068039]
+RandomSpell Attack Attack Special
+Wait
+Attack
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Level_3_Confuse Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [216] Pointer offset [4068060]
+If $13 $1 $1
+RandomSpell Attack Attack Cyclonic
+EndIf
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [217] Pointer offset [4068075]
+RandomSpell Level_5_Doom Level_4_Flare Special
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Metal_Cutter Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [218] Pointer offset [4068094]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [219] Pointer offset [4068105]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+RandomSpell Attack Special Transfusion
+End
+If $12 $0 $0
+EndIf
+If $13 $1 $1
+If $1 $2 $2
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $1 $2 $2
+RandomSpell Transfusion Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [220] Pointer offset [4068146]
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $1 $2 $2
+RandomSpell Thundata Break Flare
+EndIf
+If $5 $0 $0
+Lifeshaver
+End
+
+Monster idx [221] Pointer offset [4068180]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+Special
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $5 $5
+RandomCommand Steal Steal
+End
+
+Monster idx [222] Pointer offset [4068214]
+RandomSpell Mysidian_Rabbit Attack Attack
+Wait
+RandomSpell Mysidian_Rabbit Attack Attack
+Wait
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Self_Destruct
+End
+If $12 $0 $0
+EndIf
+If $4 $1 $0
+RandomSpell Self_Destruct Special Mysidian_Rabbit
+End
+
+Monster idx [223] Pointer offset [4068243]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Vanish
+End
+End
+
+Monster idx [224] Pointer offset [4068254]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Meteor
+End
+If $5 $0 $0
+Target $47
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [225] Pointer offset [4068275]
+Special
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+Wait
+Attack
+End
+End
+
+Monster idx [226] Pointer offset [4068293]
+Wait
+RandomSpell Disaster Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Wait
+Wait
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Wait
+Wait
+Wait
+Wait
+End
+End
+
+Monster idx [227] Pointer offset [4068313]
+If $13 $1 $1
+RandomSpell Diffusion_Laser Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+RandomSpell Absolute_Zero Special Mysidian_Rabbit
+End
+End
+
+Monster idx [228] Pointer offset [4068328]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Gigavolt Snowstorm Blaze
+Wait
+RandomSpell Aqua_Breath Snowstorm Attack
+Wait
+RandomSpell Aqua_Breath Gigavolt Blaze
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Special Special Mysidian_Rabbit
+End
+
+Monster idx [229] Pointer offset [4068362]
+If $13 $1 $1
+RandomSpell Firaga Firaga Mysidian_Rabbit
+EndIf
+RandomSpell Fire Fire Special
+Wait
+RandomSpell Fire Fira Fira
+Wait
+RandomSpell Fire Fira Fira
+Wait
+RandomSpell Fire Fire Special
+Wait
+RandomSpell Fire Fira Firaga
+End
+End
+
+Monster idx [230] Pointer offset [4068397]
+Misc $36 $20
+Attack
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Shamshir Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [231] Pointer offset [4068421]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Blizzard Blizzara Blizzara
+End
+End
+
+Monster idx [232] Pointer offset [4068432]
+Attack
+End
+If $13 $1 $1
+If $1 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [233] Pointer offset [4068447]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [234] Pointer offset [4068463]
+RandomSpell Snowball Fireball Missile
+End
+If $4 $4 $0
+If $5 $0 $0
+Special
+Attack
+End
+
+Monster idx [235] Pointer offset [4068479]
+If $13 $1 $1
+RandomSpell Attack Attack Special
+EndIf
+Attack
+Wait
+Attack
+Wait
+White_Wind
+End
+End
+
+Monster idx [236] Pointer offset [4068495]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Cyclonic
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Shamshir Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [237] Pointer offset [4068529]
+If $13 $1 $1
+Self_Destruct
+EndIf
+RandomSpell Transfusion Self_Destruct Mysidian_Rabbit
+Wait
+Target $36
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [238] Pointer offset [4068548]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+If $5 $0 $0
+RandomSpell Leech Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [239] Pointer offset [4068572]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [240] Pointer offset [4068583]
+RandomSpell Attack Attack Special
+End
+If $1 $8 $8
+Item $1 Enhancer Crystal_Sword
+End
+
+Monster idx [241] Pointer offset [4068597]
+If $13 $1 $1
+RandomSpell Death Banish Flare
+EndIf
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $1 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Gravity Graviga Mysidian_Rabbit
+End
+
+Monster idx [242] Pointer offset [4068630]
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+RandomSpell Special Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Special Mysidian_Rabbit
+RandomSpell Attack Special Mysidian_Rabbit
+End
+End
+
+Monster idx [243] Pointer offset [4068658]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Fire Fira Fira
+End
+If $13 $1 $1
+RandomSpell Fireball Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+
+Monster idx [244] Pointer offset [4068687]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [245] Pointer offset [4068698]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+End
+
+Monster idx [246] Pointer offset [4068714]
+Special
+Wait
+RandomSpell Freezing_Dust Plasma Mysidian_Rabbit
+Wait
+RandomSpell Freezing_Dust Plasma Mysidian_Rabbit
+Wait
+RandomSpell Freezing_Dust Plasma Mysidian_Rabbit
+Wait
+RandomSpell Freezing_Dust Plasma Level_2_Bioga
+End
+End
+
+Monster idx [247] Pointer offset [4068737]
+If $8 $38 $17
+RandomSpell Fire Fira Firaga
+EndIf
+If $8 $43 $17
+RandomSpell Cura Reflect Haste
+EndIf
+RandomSpell Fira Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [248] Pointer offset [4068761]
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Special
+End
+End
+
+Monster idx [249] Pointer offset [4068772]
+If $15 $24 $0
+If $8 $43 $17
+Reflect_
+Bit $1 $24 $0
+EndIf
+RandomSpell Attack Level_5_Doom Bio
+Wait
+RandomSpell Gravity Gravity Venomist
+Wait
+RandomSpell Attack Attack Mysidian_Rabbit
+Bit $2 $24 $0
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Dancing_Flame Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [250] Pointer offset [4068819]
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+If $1 $0 $0
+Attack
+End
+
+Monster idx [251] Pointer offset [4068830]
+RandomSpell Attack Doom Doom
+Wait
+RandomSpell Attack Doom Attack
+Wait
+RandomSpell Attack Dread_Gaze Dread_Gaze
+End
+If $12 $0 $0
+EndIf
+If $1 $2 $2
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Roulette
+End
+
+Monster idx [252] Pointer offset [4068859]
+Level_5_Doom
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Death Mysidian_Rabbit Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Blaster Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Blaster Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Blaster Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Blaster Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [253] Pointer offset [4068907]
+RandomSpell Special Dischord Attack
+End
+End
+
+Monster idx [254] Pointer offset [4068913]
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Wave_Cannon Wave_Cannon Diffusion_Laser
+End
+End
+
+Monster idx [255] Pointer offset [4068934]
+If $19 $4 $0
+If $D $24 $8
+Special
+Variable $24 $0
+Hide $A $4 $4
+Animation $7 $4 $0
+Hide $A $2 $4
+EndIf
+If $19 $4 $0
+Animation $4 $4 $0
+Attack
+Variable $24 $81
+EndIf
+If $19 $8 $0
+If $D $24 $8
+Special
+Variable $24 $0
+Hide $A $4 $8
+Animation $7 $8 $0
+Hide $A $2 $8
+EndIf
+If $19 $8 $0
+Animation $4 $8 $0
+Attack
+Variable $24 $81
+EndIf
+If $19 $10 $0
+If $D $24 $8
+Special
+Variable $24 $0
+Hide $A $4 $10
+Animation $7 $10 $0
+Hide $A $2 $10
+EndIf
+If $19 $10 $0
+Animation $4 $10 $0
+Attack
+Variable $24 $81
+EndIf
+End
+If $12 $0 $0
+Hide $B $1 $0
+EndIf
+If $19 $4 $0
+If $1 $0 $0
+Variable $0 $81
+If $D $24 $2
+If $D $0 $3
+Variable $0 $0
+Animation $3 $4 $0
+Variable $24 $C1
+EndIf
+If $19 $8 $0
+If $1 $0 $0
+Variable $1 $81
+If $D $24 $2
+If $D $1 $3
+Variable $1 $0
+Animation $3 $8 $0
+Variable $24 $C1
+EndIf
+If $19 $10 $0
+If $1 $0 $0
+Variable $2 $81
+If $D $24 $2
+If $D $2 $3
+Variable $2 $0
+Animation $3 $10 $0
+Variable $24 $C1
+EndIf
+If $1 $2 $2
+Target $45
+Holy
+End
+
+Monster idx [256] Pointer offset [4069156]
+If $15 $3 $0
+Bit $0 $3 $0
+Event $5
+EndIf
+If $1D $31 $80
+Hide $7 $0 $C
+EndIf
+If $B $6 $0
+If $12 $2 $0
+Caption $5 $0
+Hide $9 $2 $2
+Misc $0 $0
+EndIf
+If $B $A $0
+If $11 $2 $0
+Caption $5 $0
+Hide $8 $1 $2
+Misc $0 $0
+EndIf
+If $1B $B0 $1
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+End
+If $5 $0 $0
+If $D $2 $2
+Animation $0 $0 $0
+Target $43
+Thundata
+Target $48
+Reraise
+Target $49
+Reraise
+Target $4A
+Reraise
+Target $47
+Quake
+Target $48
+Reraise
+Target $49
+Reraise
+Target $4A
+Reraise
+Target $47
+Meteor
+Forsaken
+EndIf
+If $D $2 $1
+Animation $0 $1 $0
+Target $47
+Hastega
+Target $48
+Reraise
+Target $49
+Reraise
+Target $4A
+Reraise
+Target $36
+Libra
+Variable $2 $81
+EndIf
+If $C $2 $1
+Target $36
+Libra
+Variable $2 $81
+EndIf
+End
+
+Monster idx [257] Pointer offset [4069308]
+If $14 $0 $0
+RandomSpell Mysidian_Rabbit Magnitude_8 Magnitude_8
+EndIf
+RandomSpell Mysidian_Rabbit Attack Attack
+Wait
+RandomSpell Mysidian_Rabbit Megavolt Needles
+End
+If $15 $3 $0
+If $12 $0 $0
+Bit $1 $3 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Gigavolt
+End
+
+Monster idx [258] Pointer offset [4069353]
+RandomSpell Special Special Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Magitek_Laser Magitek_Laser Mysidian_Rabbit
+EndIf
+If $1 $2 $2
+RandomSpell Missile Missile Mysidian_Rabbit
+End
+
+Monster idx [259] Pointer offset [4069381]
+If $14 $0 $0
+If $15 $0 $4
+If $9 $5 $8
+Special
+Caption $12 $0
+Bit $1 $0 $4
+EndIf
+If $14 $0 $4
+If $15 $0 $2
+If $8 $5 $8
+Bit $1 $0 $2
+Caption $43 $0
+EndIf
+If $B $14 $0
+Misc $0 $0
+Caption $A $0
+Gale_Cut
+EndIf
+Attack
+Wait
+Attack
+Wait
+Attack
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $2 $5D $5D
+Event $9
+Hide $B $1 $FF
+EndIf
+If $5 $0 $0
+If $6 $36 $55
+If $15 $0 $0
+Bit $1 $0 $0
+Caption $42 $0
+Event $7
+EndIf
+If $5 $0 $0
+If $14 $0 $0
+If $15 $0 $1
+If $6 $36 $51
+Event $8
+Bit $1 $0 $1
+EndIf
+End
+
+Monster idx [260] Pointer offset [4069506]
+If $15 $0 $0
+Event $10
+Bit $0 $0 $0
+EndIf
+If $6 $36 $3
+Target $47
+RandomSpell Attack Fire Attack
+Wait
+Target $47
+RandomSpell Magitek_Laser Special Thunder
+EndIf
+RandomSpell Attack Thunder Fire
+Wait
+RandomSpell Poison Special Fire
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [261] Pointer offset [4069563]
+RandomSpell Special Metal_Cutter Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Southern_Cross Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $1 $2 $2
+RandomSpell Northern_Cross Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [262] Pointer offset [4069591]
+If $15 $0 $0
+Bit $0 $0 $0
+RandomSpell Attack Special Diabolic_Whistle
+EndIf
+If $D $3 $2
+If $13 $0 $2
+Variable $3 $0
+Diabolic_Whistle
+EndIf
+If $B $F $0
+Misc $0 $0
+RandomSpell Acid_Rain Acid_Rain Saintly_Beam
+EndIf
+RandomSpell Attack Attack Special
+RandomSpell Attack Attack Special
+Variable $3 $81
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Special
+End
+
+Monster idx [263] Pointer offset [4069659]
+If $9 $36 $B
+If $B $1E $0
+Misc $0 $0
+If $12 $6 $0
+Animation $9 $40 $B8
+Hide $3 $0 $6
+EndIf
+If $15 $0 $0
+If $6 $36 $F
+Target $36
+Item $0 Hi-Potion Potion
+Item $0 Hi-Potion Potion
+Item $0 Hi-Potion Potion
+Protect
+Bit $1 $0 $0
+EndIf
+If $D $3 $4
+Target $44
+Item $1 Dagger Mythril_Knife
+Target $44
+Item $1 Dagger Mythril_Knife
+Variable $3 $0
+EndIf
+If $D $2 $2
+If $9 $36 $12
+Target $43
+Item $1 Dagger Mythril_Knife
+Wait
+Target $44
+RandomCommand Jump Jump Jump
+Variable $2 $0
+EndIf
+Target $47
+RandomSpell Attack Attack Shockwave
+Wait
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $1 $0 $0
+Variable $3 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+EndIf
+If $1 $2 $2
+Variable $2 $81
+Target $44
+EndIf
+If $1 $5 $5
+RandomCommand Steal Steal Steal
+End
+
+Monster idx [264] Pointer offset [4069808]
+If $D $3 $5
+Variable $3 $0
+Hide $A $4 $2
+Hide $A $2 $1
+Hide $0 $1 $2
+EndIf
+If $D $24 $3
+Variable $24 $0
+Hide $A $4 $2
+Hide $A $2 $8
+Target $44
+Reflect
+Hide $A $4 $8
+Hide $A $2 $2
+Hide $0 $1 $8
+EndIf
+Target $47
+RandomSpell Blizzard Blizzard Blizzara
+Wait
+RandomSpell Blizzard Blizzara Snowstorm
+End
+If $12 $0 $0
+Caption $1B $0
+Hide $0 $0 $3
+Caption $1C $0
+Caption $1D $0
+Misc $2 $0
+EndIf
+If $1 $2 $2
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Blizzard
+Variable $24 $81
+Variable $3 $81
+EndIf
+If $5 $0 $0
+Variable $3 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Blizzard
+End
+
+Monster idx [265] Pointer offset [4069919]
+If $D $3 $5
+Variable $3 $0
+Hide $A $4 $1
+Hide $A $2 $2
+Hide $0 $1 $1
+EndIf
+If $D $24 $3
+Variable $24 $0
+Hide $A $4 $1
+Hide $A $2 $4
+Target $44
+Firaga
+Hide $A $4 $4
+Hide $A $2 $1
+Hide $0 $1 $4
+EndIf
+RandomSpell Attack Fire Fire
+Wait
+RandomSpell Attack Blaze Fira
+Variable $2 $81
+End
+If $12 $0 $0
+Caption $1C $0
+Hide $0 $0 $3
+Caption $1B $0
+Caption $1D $0
+Misc $2 $0
+EndIf
+If $1 $2 $2
+Variable $24 $81
+Variable $3 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Fire
+EndIf
+If $5 $0 $0
+Variable $3 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Fire
+End
+
+Monster idx [266] Pointer offset [4070031]
+If $B $1E $0
+Misc $0 $0
+Barrier_Change
+Variable $3 $81
+EndIf
+If $D $3 $3
+Caption $0 $0
+Target $36
+RandomSpell Sun_Bath Arctic_Hare Libra
+Wait
+Target $36
+RandomSpell Sun_Bath Arctic_Hare Libra
+Wait
+Target $36
+RandomSpell Sun_Bath Arctic_Hare Libra
+Variable $3 $0
+EndIf
+If $1A $36 $1
+Target $47
+RandomSpell Blizzard Blizzard Blizzara
+EndIf
+If $1A $36 $2
+Target $47
+RandomSpell Fire Fira Fireball
+EndIf
+If $1A $36 $4
+Target $47
+RandomSpell Aqua_Breath Acid_Rain Acid_Rain
+EndIf
+If $1A $36 $8
+Target $47
+RandomSpell Cure Cure Cura
+EndIf
+If $1A $36 $10
+Target $47
+RandomSpell Magnitude_8 Magnitude_8 Cave_In
+EndIf
+If $1A $36 $20
+Target $47
+RandomSpell Attack Attack Reverse_Polarity
+EndIf
+If $1A $36 $40
+Target $47
+RandomSpell Sonic_Boom Gale_Cut Gale_Cut
+EndIf
+If $1A $36 $80
+Target $47
+RandomSpell Thunder Thunder Thundara
+EndIf
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $4 $1 $0
+If $1A $36 $1
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $2 $0
+If $1A $36 $2
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $4 $0
+If $1A $36 $4
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $8 $0
+If $1A $36 $8
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $10 $0
+If $1A $36 $10
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $20 $0
+If $1A $36 $20
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $40 $0
+If $1A $36 $40
+Variable $3 $81
+Barrier_Change
+EndIf
+If $4 $80 $0
+If $1A $36 $80
+Variable $3 $81
+Barrier_Change
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [267] Pointer offset [4070289]
+If $15 $24 $0
+If $13 $1 $1
+If $9 $36 $13
+Target $36
+Haste
+Bit $1 $24 $0
+EndIf
+If $13 $1 $1
+RandomSpell Attack Gale_Cut Atomic_Ray
+Wait
+RandomSpell Blaster Atomic_Ray Shockwave
+EndIf
+RandomSpell Attack Attack Blizzard
+Wait
+RandomSpell Attack Special Net
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Special
+End
+
+Monster idx [268] Pointer offset [4070351]
+If $16 $1E $0
+If $11 $B $0
+Delta_Attack
+Misc $4 $0
+EndIf
+If $15 $24 $0
+If $13 $1 $1
+If $9 $36 $13
+Target $36
+Magitek_Barrier
+Bit $1 $24 $0
+EndIf
+If $13 $1 $2
+RandomSpell Thundata Thundata Meteor
+EndIf
+RandomSpell Thundara Atomic_Ray Atomic_Ray
+Wait
+RandomSpell Gigavolt Gigavolt Atomic_Ray
+Wait
+RandomSpell Thundara Atomic_Ray Shockwave
+Wait
+RandomSpell Thundara Atomic_Ray Shockwave
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Special
+End
+
+Monster idx [269] Pointer offset [4070431]
+If $D $1 $3
+Variable $1 $0
+Target $31
+Fira
+EndIf
+If $15 $24 $0
+If $13 $1 $1
+Target $36
+Magitek_Barrier
+Bit $1 $24 $0
+EndIf
+If $16 $3C $0
+Misc $4 $0
+Caption $1F $0
+Magnitude_8
+EndIf
+RandomSpell Attack Thunder Thunder
+Wait
+RandomSpell Attack Thundara Special
+End
+If $4 $4 $0
+If $D $3 $2
+Caption $31 $0
+Caption $26 $0
+Variable $3 $0
+Target $43
+Gigavolt
+EndIf
+If $4 $4 $0
+If $D $3 $1
+Variable $3 $81
+Caption $2D $0
+EndIf
+If $4 $4 $0
+If $D $3 $0
+Variable $3 $81
+Caption $2C $0
+EndIf
+If $5 $0 $0
+Variable $1 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [270] Pointer offset [4070543]
+If $D $0 $3
+Variable $0 $0
+Target $30
+Thundara
+EndIf
+If $15 $24 $0
+If $13 $1 $1
+Target $36
+Magitek_Barrier
+Bit $1 $24 $0
+EndIf
+If $16 $3C $0
+Misc $4 $0
+Caption $1F $0
+Magnitude_8
+EndIf
+RandomSpell Attack Fire Fire
+Wait
+RandomSpell Attack Fira Special
+End
+If $4 $1 $0
+If $D $2 $2
+Caption $47 $0
+Caption $32 $0
+Variable $2 $0
+Target $43
+Firaga
+EndIf
+If $4 $1 $0
+If $D $2 $1
+Variable $2 $81
+Caption $46 $0
+EndIf
+If $4 $1 $0
+If $D $2 $0
+Variable $2 $81
+Caption $33 $0
+EndIf
+If $5 $0 $0
+Variable $0 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [271] Pointer offset [4070655]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Attack Snowstorm
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $4 $1 $0
+Target $47
+RandomSpell Mysidian_Rabbit Special Snowstorm
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [272] Pointer offset [4070694]
+If $15 $0 $0
+If $15 $0 $1
+If $6 $36 $50
+Target $36
+Item $0 Yellow_Cherry Yellow_Cherry
+Animation $0 $1 $0
+Caption $49 $0
+Misc $B $16
+Misc $B $15
+Misc $B $13
+Misc $B $11
+Bit $1 $0 $0
+EndIf
+If $D $24 $3
+RandomCommand Jump Jump Jump
+Variable $24 $0
+EndIf
+If $13 $0 $2
+If $B $28 $0
+Misc $0 $0
+RandomSpell Snowball Avalanche Hailstone
+EndIf
+If $13 $0 $2
+RandomSpell Attack Attack Snowstorm
+RandomSpell Attack Attack Special
+EndIf
+RandomSpell Attack Attack Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $15 $0 $0
+If $15 $0 $1
+If $3 $F8 $F8
+Animation $0 $1 $0
+Caption $49 $0
+Misc $B $16
+Misc $B $15
+Misc $B $13
+Misc $B $11
+Bit $1 $0 $1
+EndIf
+If $1 $2 $2
+Variable $24 $81
+EndIf
+If $4 $1 $0
+RandomSpell Mysidian_Rabbit Special Snowstorm
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Special
+End
+
+Monster idx [273] Pointer offset [4070853]
+If $15 $0 $0
+Misc $1 $36
+Caption $30 $0
+Bit $1 $0 $0
+EndIf
+End
+If $1 $0 $0
+If $D $1 $2
+Variable $1 $0
+Caption $2F $0
+EndIf
+If $1 $0 $0
+Variable $1 $81
+Caption $2E $0
+Attack
+End
+
+Monster idx [274] Pointer offset [4070896]
+If $14 $24 $1
+Caption $82 $0
+Caption $7E $0
+RandomSpell Attack Tentacle Tentacle
+Wait
+RandomSpell Attack Entangle Special
+Wait
+RandomSpell Attack Stone Special
+Wait
+Entangle
+Bit $2 $24 $1
+Bit $2 $0 $0
+EndIf
+If $14 $24 $2
+Caption $82 $0
+Caption $7F $0
+RandomSpell Attack Shockwave Shockwave
+Wait
+RandomSpell Attack Shockwave Shockwave
+Wait
+Item $1 Mythril_Knife Ashura
+Item $0 Potion Hi-Potion
+Item $0 Potion Hi-Potion
+Item $0 Potion Hi-Potion
+Target $36
+Magitek_Barrier
+Bit $2 $24 $2
+Bit $2 $0 $0
+EndIf
+If $14 $24 $3
+Caption $82 $0
+Caption $80 $0
+RandomSpell Magitek_Laser Diffusion_Laser Diffusion_Laser
+Wait
+RandomSpell Magitek_Laser Diffusion_Laser Diffusion_Laser
+Wait
+RandomSpell Magitek_Laser Launcher Launcher
+Wait
+Caption $67 $0
+Caption $3C $0
+Caption $45 $0
+Wave_Cannon
+Bit $2 $24 $3
+Bit $2 $0 $0
+EndIf
+If $14 $24 $4
+Caption $82 $0
+Caption $81 $0
+RandomSpell Flare Meteo Meteo
+Wait
+RandomSpell Attack Flare Flare
+Wait
+RandomSpell Attack Meteo Attack
+Wait
+Caption $65 $0
+Animation $C $1 $0
+Animation $C $1 $0
+Animation $C $1 $0
+Target $47
+Flare_Star
+Bit $2 $24 $4
+Bit $2 $0 $0
+EndIf
+If $14 $0 $0
+If $D $3 $3
+Variable $3 $0
+Variable $24 $0
+Bit $1 $24 $4
+EndIf
+If $14 $0 $0
+If $D $3 $2
+Variable $3 $81
+Variable $24 $0
+Bit $1 $24 $3
+EndIf
+If $14 $0 $0
+If $D $3 $1
+Variable $3 $81
+Variable $24 $0
+Bit $1 $24 $2
+EndIf
+If $14 $0 $0
+If $D $3 $0
+Variable $3 $81
+Variable $24 $0
+Bit $1 $24 $1
+EndIf
+Caption $68 $0
+RandomSpell Attack Magitek_Laser Missile
+Wait
+RandomSpell Atomic_Ray Missile Magitek_Laser
+Bit $1 $0 $0
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [275] Pointer offset [4071186]
+If $14 $0 $0
+If $D $1 $6
+Hide $2 $1 $8
+Wave_Cannon
+Variable $1 $0
+EndIf
+If $14 $0 $0
+If $D $1 $5
+Caption $45 $0
+Variable $1 $81
+EndIf
+If $14 $0 $0
+If $D $1 $4
+Caption $3C $0
+Variable $1 $81
+EndIf
+If $14 $0 $0
+If $D $1 $3
+Caption $3B $0
+Variable $1 $81
+EndIf
+If $14 $0 $0
+If $D $1 $2
+Caption $3A $0
+Variable $1 $81
+EndIf
+If $14 $0 $0
+If $D $1 $1
+Caption $39 $0
+Variable $1 $81
+EndIf
+If $14 $0 $0
+If $D $1 $0
+Hide $3 $0 $8
+Misc $B $13
+Caption $22 $0
+Caption $38 $0
+Variable $1 $81
+EndIf
+If $13 $1 $2
+RandomSpell Magitek_Laser Diffusion_Laser Mysidian_Rabbit
+EndIf
+RandomSpell Magitek_Laser Magitek_Laser Mysidian_Rabbit
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+End
+
+Monster idx [276] Pointer offset [4071327]
+Event $4
+Misc $2 $0
+End
+End
+
+Monster idx [277] Pointer offset [4071334]
+Event $12
+Misc $2 $0
+End
+End
+
+Monster idx [278] Pointer offset [4071341]
+If $15 $24 $0
+Bit $1 $24 $0
+Bomblet
+Hide $1 $0 $3C
+EndIf
+If $B $F $0
+Misc $0 $0
+Variable $3 $81
+If $D $3 $6
+Variable $3 $0
+EndIf
+If $D $2 $6
+If $9 $36 $17
+Target $36
+Protect
+Reflect
+Variable $2 $0
+EndIf
+If $15 $24 $1
+If $13 $1 $1
+If $D $3 $5
+Bomblet
+Hide $1 $0 $2
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $13 $1 $1
+If $D $3 $4
+Bomblet
+Hide $1 $0 $24
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $13 $1 $1
+If $D $3 $3
+Bomblet
+Hide $1 $0 $3C
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $13 $1 $1
+If $D $3 $2
+Bomblet
+Hide $1 $0 $34
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $13 $1 $1
+If $D $3 $1
+Bomblet
+Hide $1 $0 $28
+Bit $1 $24 $1
+EndIf
+If $8 $36 $17
+RandomSpell Fira Firaga Fira
+Variable $3 $81
+Bit $2 $24 $1
+EndIf
+RandomSpell Fire Mysidian_Rabbit Fire
+Wait
+RandomSpell Fire Fireball Fireball
+Wait
+RandomSpell Fire Fireball Mysidian_Rabbit
+Bit $2 $24 $1
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $2 $10 $11
+Target $43
+RandomSpell Graviga Flare Graviga
+EndIf
+If $5 $0 $0
+Variable $2 $81
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Fira
+End
+
+Monster idx [279] Pointer offset [4071566]
+If $15 $24 $7
+Caption $85 $0
+Bit $1 $24 $7
+EndIf
+If $14 $24 $0
+Caption $65 $0
+Misc $B $15
+Misc $B $16
+Misc $B $13
+Animation $C $1 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Animation $C $1 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Animation $B $1 $0
+Target $47
+Flare_Star
+Bit $2 $24 $0
+Bit $2 $24 $1
+EndIf
+If $6 $36 $30
+Target $47
+RandomSpell Attack Graviga Graviga
+Wait
+Target $47
+RandomSpell Rasp Tornado Blaze
+EndIf
+If $6 $36 $64
+Target $47
+RandomSpell Bio Quake Meteo
+Wait
+Target $47
+RandomSpell Attack Special Special
+Wait
+Target $43
+Fira
+Wait
+Target $47
+Mind_Blast
+Bit $1 $24 $0
+Bit $1 $24 $1
+EndIf
+RandomSpell Attack Flare Attack
+Wait
+RandomSpell Flare Attack Blaze
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+If $15 $24 $1
+If $6 $36 $30
+Target $47
+RandomSpell Mysidian_Rabbit Flare Mysidian_Rabbit
+EndIf
+End
+
+Monster idx [280] Pointer offset [4071719]
+If $15 $24 $0
+Caption $66 $0
+Target $48
+Doom
+Target $49
+Doom
+Target $4A
+Doom
+Target $4B
+Doom
+Bit $1 $24 $0
+EndIf
+If $D $0 $6
+Variable $0 $0
+Roulette
+EndIf
+RandomSpell Attack Attack Fira
+Wait
+RandomSpell Attack Fireball Firaga
+Wait
+RandomSpell Attack Attack Fira
+End
+If $1 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Variable $0 $81
+End
+
+Monster idx [281] Pointer offset [4071779]
+If $8 $36 $5
+Target $44
+Attack
+Attack
+Wait
+Target $44
+Attack
+Attack
+Wait
+Target $44
+Attack
+Attack
+Wait
+If $9 $36 $17
+Target $36
+Imp
+EndIf
+If $15 $24 $0
+If $8 $48 $17
+Target $48
+Special
+Caption $5A $0
+Bit $1 $24 $0
+EndIf
+If $15 $24 $0
+If $8 $49 $17
+Target $49
+Special
+Caption $5A $0
+Bit $1 $24 $0
+EndIf
+If $15 $24 $0
+If $8 $4A $17
+Target $4A
+Special
+Caption $5A $0
+Bit $1 $24 $0
+EndIf
+If $15 $24 $0
+If $8 $4B $17
+Target $4B
+Special
+Caption $5A $0
+Bit $1 $24 $0
+EndIf
+If $6 $36 $50
+Target $47
+RandomSpell Attack Blizzaga Blizzaga
+Wait
+Target $47
+RandomSpell Attack Meteo Holy
+Wait
+Target $47
+RandomSpell Attack Blizzara Meteo
+Bit $2 $24 $0
+EndIf
+RandomSpell Holy Blizzara Mysidian_Rabbit
+Wait
+RandomSpell Attack Blizzaga Mysidian_Rabbit
+Bit $2 $24 $0
+End
+If $12 $1 $0
+Bit $1 $A $0
+Hide $B $3 $0
+Caption $7C $0
+Animation $6 $0 $0
+Caption $7D $0
+Formation $0 $A8 $81
+Bit $1 $0 $0
+EndIf
+If $2 $E $F
+Target $47
+Meteo
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [282] Pointer offset [4071973]
+If $15 $24 $0
+Misc $7 $36
+Bit $1 $24 $0
+EndIf
+If $1B $D7 $1
+If $13 $1 $1
+Formation $90 $0 $82
+EndIf
+If $1B $0 $2
+If $13 $1 $1
+Formation $90 $1 $82
+EndIf
+If $1B $1 $2
+If $13 $1 $1
+Formation $8F $2 $82
+EndIf
+End
+End
+
+Monster idx [283] Pointer offset [4072026]
+If $14 $24 $7
+If $B $1E $0
+Release
+EndIf
+If $15 $24 $7
+If $8 $48 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $49 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4A $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4B $12
+Grab
+EndIf
+If $15 $24 $7
+Misc $0 $0
+RandomSpell Special Poison Special
+Wait
+Misc $0 $0
+RandomSpell Entangle Entangle Special
+Wait
+Misc $0 $0
+RandomSpell Attack Bio Special
+Wait
+Misc $0 $0
+RandomSpell Poison Special Entangle
+End
+If $12 $0 $0
+If $14 $24 $7
+Release
+EndIf
+If $15 $24 $7
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [284] Pointer offset [4072135]
+If $15 $24 $0
+Level_2_Bioga
+Bit $1 $24 $0
+EndIf
+If $15 $24 $2
+If $6 $36 $50
+Target $36
+Cura
+Bit $1 $24 $2
+EndIf
+If $D $1 $8
+RandomSpell Northern_Cross Special Mysidian_Rabbit
+Wait
+RandomSpell Blizzara Special Mysidian_Rabbit
+Wait
+RandomSpell Level_2_Bioga Mysidian_Rabbit Absolute_Zero
+Wait
+RandomSpell Blizzara Absolute_Zero Mysidian_Rabbit
+Variable $1 $0
+EndIf
+If $15 $24 $1
+If $8 $43 $17
+Reflect_
+Bit $1 $24 $1
+EndIf
+RandomSpell Blizzaga Blizzara Mysidian_Rabbit
+Wait
+RandomSpell Blizzaga Mysidian_Rabbit Holy
+Wait
+RandomSpell Holy Blizzara Mysidian_Rabbit
+Wait
+RandomSpell Mysidian_Rabbit Blizzara Holy
+Bit $2 $24 $1
+Bit $2 $24 $2
+EndIf
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+Variable $1 $81
+End
+
+Monster idx [285] Pointer offset [4072252]
+If $15 $24 $0
+Level_5_Doom
+Bit $1 $24 $0
+EndIf
+Target $47
+RandomSpell Attack Death Blizzaga
+Wait
+RandomSpell Death Aero Aero
+Wait
+Target $36
+RandomSpell Mysidian_Rabbit Flee Flee
+End
+If $12 $0 $0
+Bit $1 $D $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Attack Mysidian_Rabbit
+End
+
+Monster idx [286] Pointer offset [4072303]
+If $15 $24 $0
+Caption $5F $0
+Bit $1 $24 $0
+EndIf
+If $D $3 $1
+RandomSpell Attack Attack Entice
+Wait
+RandomSpell Attack Special Lullaby
+Wait
+RandomSpell Attack Attack Special
+Variable $3 $0
+Hide $E $2 $2
+Hide $E $1 $1
+EndIf
+If $D $3 $0
+RandomSpell Attack Entice Attack
+Variable $3 $0
+Hide $E $2 $2
+Hide $E $1 $1
+EndIf
+End
+If $12 $0 $0
+Hide $8 $3 $1
+Hide $9 $0 $1
+EndIf
+If $5 $0 $0
+Target $47
+RandomSpell Mysidian_Rabbit Attack Poltergeist
+End
+
+Monster idx [287] Pointer offset [4072390]
+If $11 $7 $0
+If $16 $1E $0
+Misc $4 $0
+Target $44
+Delta_Attack
+EndIf
+If $D $3 $4
+If $9 $36 $17
+Variable $3 $0
+Target $36
+Reflect
+EndIf
+If $8 $36 $17
+Target $36
+RandomSpell Fira Firaga Firaga
+EndIf
+If $12 $2 $0
+Target $31
+Arise
+EndIf
+If $12 $4 $0
+Target $32
+Arise
+EndIf
+If $13 $1 $2
+RandomSpell Fira Firaga Firaga
+EndIf
+RandomSpell Slow Mysidian_Rabbit White_Wind
+Wait
+RandomSpell Silence Slow Mysidian_Rabbit
+Wait
+RandomSpell Stop Silence Mysidian_Rabbit
+End
+If $1 $2 $2
+Variable $3 $81
+Target $11
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Fira
+EndIf
+If $5 $0 $0
+Target $11
+RandomSpell Mysidian_Rabbit Fira Mysidian_Rabbit
+End
+
+Monster idx [288] Pointer offset [4072496]
+If $11 $7 $0
+If $16 $1E $0
+Misc $4 $0
+Target $44
+Delta_Attack
+EndIf
+If $D $3 $4
+If $9 $36 $17
+Variable $3 $0
+Target $36
+Reflect
+EndIf
+If $8 $36 $17
+Target $36
+RandomSpell Blizzara Blizzaga Blizzaga
+EndIf
+If $14 $24 $0
+If $15 $24 $1
+If $B $1E $0
+Bit $1 $24 $1
+Bit $1 $24 $2
+Bit $2 $24 $0
+Caption $64 $0
+Hide $2 $0 $2
+EndIf
+If $15 $24 $0
+If $15 $24 $2
+If $13 $1 $2
+If $D $2 $4
+Variable $2 $0
+Caption $5B $0
+Bit $1 $24 $0
+Misc $0 $0
+Hide $2 $3 $2
+EndIf
+If $15 $24 $0
+If $13 $1 $2
+RandomSpell Blizzara Mysidian_Rabbit Blizzaga
+Wait
+RandomSpell Blizzara Mysidian_Rabbit Blizzaga
+Wait
+RandomSpell Mysidian_Rabbit Blizzara Blizzara
+EndIf
+If $15 $24 $0
+Attack
+End
+If $13 $1 $2
+If $5 $0 $0
+Target $11
+RandomSpell Mysidian_Rabbit Blizzara Mysidian_Rabbit
+Variable $2 $81
+EndIf
+If $5 $0 $0
+Target $11
+RandomSpell Mysidian_Rabbit Blizzara Mysidian_Rabbit
+End
+
+Monster idx [289] Pointer offset [4072661]
+If $11 $7 $0
+If $16 $1E $0
+Misc $4 $0
+Target $44
+Delta_Attack
+EndIf
+If $D $3 $4
+If $9 $36 $17
+Variable $3 $0
+Target $36
+Reflect
+EndIf
+If $8 $36 $17
+Target $36
+RandomSpell Thundara Thundata Thundata
+EndIf
+If $13 $1 $2
+RandomSpell Thundara Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Thundara Thundata Mysidian_Rabbit
+Wait
+RandomSpell Thundata Thundata Mysidian_Rabbit
+EndIf
+RandomSpell Protect Haste Mysidian_Rabbit
+Wait
+RandomSpell Shell Cura Mysidian_Rabbit
+End
+If $1 $2 $2
+Variable $3 $81
+Target $11
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Thundara
+EndIf
+If $5 $0 $0
+Target $11
+RandomSpell Mysidian_Rabbit Thundara Mysidian_Rabbit
+End
+
+Monster idx [290] Pointer offset [4072756]
+If $15 $0 $1
+Bit $1 $0 $1
+Event $1F
+Fury
+EndIf
+If $14 $0 $0
+Target $41
+RandomSpell Mysidian_Rabbit Thundata Thundata
+Wait
+Target $41
+RandomSpell Mysidian_Rabbit Thundata Thundata
+Wait
+Target $44
+RandomSpell Mysidian_Rabbit Fury Fury
+EndIf
+Attack
+Wait
+Attack
+Bit $1 $0 $0
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $14 $0 $0
+If $1 $0 $0
+RandomSpell Mysidian_Rabbit Attack Mysidian_Rabbit
+EndIf
+End
+
+Monster idx [291] Pointer offset [4072824]
+If $12 $3C $0
+If $16 $50 $0
+Hide $9 $0 $4
+Hide $9 $0 $8
+Hide $9 $0 $10
+Hide $9 $0 $20
+Bit $2 $24 $0
+EndIf
+If $D $3 $A
+Bit $1 $0 $0
+Variable $3 $0
+EndIf
+If $15 $24 $0
+If $13 $1 $1
+Animation $C $1 $0
+Target $47
+Grand_Delta
+Bit $2 $0 $0
+Bit $1 $24 $0
+EndIf
+If $13 $1 $1
+Target $47
+RandomSpell Venomist Attack Leech
+Wait
+RandomSpell Attack Leech Attack
+Wait
+RandomSpell Venomist Attack Leech
+EndIf
+If $8 $48 $7
+If $9 $48 $1
+Target $48
+Crypt_Dust
+EndIf
+If $8 $49 $7
+If $9 $49 $1
+Target $49
+Crypt_Dust
+EndIf
+If $8 $4A $7
+If $9 $4A $1
+Target $4A
+Crypt_Dust
+EndIf
+If $8 $4B $7
+If $9 $4B $1
+Target $4B
+Crypt_Dust
+EndIf
+RandomSpell Attack Attack Bio
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Poison
+Variable $3 $81
+End
+
+Monster idx [292] Pointer offset [4072984]
+If $15 $24 $0
+If $16 $28 $0
+Animation $C $1 $0
+Caption $63 $0
+Target $36
+Misc $B $A
+Misc $B $17
+Misc $B $13
+Bit $1 $24 $0
+EndIf
+If $D $3 $3
+Item $1 Ashura Kunai
+Wait
+Target $43
+RandomCommand GilToss GilToss GilToss
+Variable $3 $0
+EndIf
+If $D $1 $6
+Variable $1 $0
+Target $44
+Special
+EndIf
+RandomSpell Suiton Attack Gale_Cut
+Wait
+RandomSpell Attack Raiton Shockwave
+Wait
+RandomSpell Raiton Katon Suiton
+Wait
+RandomSpell Attack Needles Katon
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $1 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+Variable $1 $81
+EndIf
+If $1 $2 $C
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+Variable $3 $81
+EndIf
+End
+
+Monster idx [293] Pointer offset [4073099]
+RandomSpell Fira Blizzara Thundara
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Imp Syphon Reflect
+End
+
+Monster idx [294] Pointer offset [4073118]
+RandomSpell Attack Mysidian_Rabbit Attack
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+If $12 $0 $0
+Misc $4 $0
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [295] Pointer offset [4073150]
+If $17 $4D $0
+Special
+EndIf
+If $14 $24 $0
+If $B $14 $0
+If $C $2 $8
+Force_Field
+Variable $2 $81
+Misc $0 $0
+EndIf
+If $D $3 $8
+Variable $3 $0
+Target $43
+Reverse_Polarity
+EndIf
+If $14 $24 $0
+RandomSpell Attack Targetting Targetting
+Wait
+RandomSpell Attack Targetting Targetting
+Wait
+RandomSpell Attack Attack Targetting
+Wait
+RandomSpell Attack Targetting Targetting
+EndIf
+RandomSpell Blizzaga Northern_Cross Absolute_Zero
+Wait
+RandomSpell Mysidian_Rabbit Blizzaga Northern_Cross
+Wait
+RandomSpell Blizzaga Northern_Cross Blizzaga
+Wait
+RandomSpell Mysidian_Rabbit Blizzaga Absolute_Zero
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Attack Attack Mysidian_Rabbit
+Variable $3 $81
+If $6 $36 $FF
+If $15 $24 $1
+Animation $C $1 $0
+Animation $C $1 $0
+Caption $88 $0
+Target $36
+Misc $B $A
+Misc $B $17
+Misc $B $13
+Bit $1 $24 $0
+Bit $1 $24 $1
+End
+
+Monster idx [296] Pointer offset [4073290]
+If $15 $0 $0
+If $D $3 $8
+Variable $3 $0
+Target $47
+Cloudy_Heaven
+Bit $1 $0 $0
+EndIf
+If $6 $36 $FF
+Target $47
+RandomSpell Thundata Flash_Rain Mysidian_Rabbit
+Wait
+Target $47
+RandomSpell Thundata Thundata Flash_Rain
+Wait
+Target $47
+RandomSpell Thundata Quasar Quasar
+Wait
+Target $47
+RandomSpell Thundata Thundata Flash_Rain
+EndIf
+RandomSpell Thundara Attack Lullaby
+Wait
+RandomSpell Thundata Entice Attack
+Wait
+RandomSpell Thundara Attack Thundata
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $1 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Overture
+Variable $3 $81
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Thundara
+Variable $3 $81
+End
+
+Monster idx [297] Pointer offset [4073389]
+If $D $3 $8
+Variable $3 $0
+Wave_Cannon
+EndIf
+If $8 $48 $14
+Blaster
+EndIf
+If $8 $49 $14
+Blaster
+EndIf
+If $8 $4A $14
+Blaster
+EndIf
+If $8 $4B $14
+Blaster
+EndIf
+If $6 $36 $FF
+Target $47
+RandomSpell Flare_Star Southern_Cross Mysidian_Rabbit
+Wait
+Target $47
+RandomSpell Meteo Aero Mysidian_Rabbit
+Wait
+Target $47
+RandomSpell Aero Flare_Star Mysidian_Rabbit
+EndIf
+RandomSpell Attack Metal_Cutter Stop
+Wait
+RandomSpell Attack Metal_Cutter Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+Variable $3 $81
+RandomSpell Mysidian_Rabbit Firaga Mysidian_Rabbit
+EndIf
+End
+
+Monster idx [298] Pointer offset [4073479]
+If $15 $24 $0
+Event $20
+Bit $1 $24 $0
+EndIf
+If $6 $36 $3C
+If $15 $0 $1
+Caption $8C $0
+Bit $1 $0 $0
+Animation $A $1 $0
+Wait
+Target $47
+Forsaken
+Wait
+Target $47
+Meteor
+Bit $2 $0 $0
+EndIf
+If $6 $36 $FF
+Caption $8C $0
+Bit $1 $0 $0
+Bit $1 $0 $1
+Animation $A $1 $0
+Wait
+Target $47
+Forsaken
+Wait
+Bit $2 $0 $0
+Bit $2 $0 $1
+Target $47
+RandomSpell Special Trine Vengeance
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Target $47
+RandomSpell Trine Special Vengeance
+RandomSpell Special Special Mysidian_Rabbit
+EndIf
+Target $43
+Heartless_Angel
+Wait
+Target $47
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Firaga Trine Special
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Blizzaga Trine Special
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Thundata Mysidian_Rabbit Special
+End
+If $12 $0 $0
+Animation $D $1 $0
+Hide $11 $1 $FF
+EndIf
+If $6 $36 $50
+If $15 $0 $0
+If $5 $0 $0
+Target $47
+RandomSpell Mysidian_Rabbit Attack Ultima
+EndIf
+If $6 $36 $EB
+If $15 $0 $0
+If $5 $0 $0
+Target $47
+RandomSpell Mysidian_Rabbit Attack Hyperdrive
+End
+
+Monster idx [299] Pointer offset [4073663]
+RandomSpell Drain Break Vanish
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Silence Sleep Mysidian_Rabbit
+End
+
+Monster idx [300] Pointer offset [4073682]
+If $15 $0 $0
+Caption $C $0
+Bit $0 $0 $0
+Attack
+EndIf
+If $15 $0 $1
+If $B $14 $0
+If $F $0 $0
+Caption $D $0
+Tentacle
+Bit $0 $0 $1
+Misc $0 $0
+EndIf
+If $15 $0 $2
+If $B $14 $0
+If $F $5 $0
+Caption $E $0
+Tentacle
+Bit $0 $0 $2
+Misc $0 $0
+EndIf
+Target $43
+Tentacle
+Target $44
+RandomSpell Attack Special Tentacle
+Wait
+Attack
+RandomSpell Attack Special Tentacle
+Wait
+Caption $4D $0
+Target $E
+Tentacle
+End
+If $12 $0 $0
+Hide $4 $3 $0
+Caption $9 $0
+Event $A
+EndIf
+If $4 $1 $0
+Caption $B $0
+Special
+End
+
+Monster idx [301] Pointer offset [4073789]
+If $15 $0 $0
+Caption $13 $0
+Bit $1 $0 $0
+EndIf
+If $16 $3C $0
+Misc $4 $0
+Caption $62 $0
+RandomSpell Imp_Song Imp_Song Imp_Song
+EndIf
+If $19 $1 $0
+RandomSpell Attack Special Tentacle
+Variable $3 $81
+EndIf
+If $19 $2 $0
+RandomSpell Attack Fire Fire
+Variable $3 $81
+EndIf
+If $19 $4 $0
+RandomSpell Attack Level_3_Confuse Level_3_Confuse
+Variable $3 $81
+EndIf
+If $19 $8 $0
+RandomSpell Attack Megavolt Drain
+Variable $3 $81
+EndIf
+End
+If $12 $0 $0
+Caption $4 $0
+Hide $3 $1 $FF
+EndIf
+If $1 $7 $A
+Acid_Rain
+EndIf
+If $19 $2 $0
+If $D $3 $10
+If $15 $2 $7
+Bit $1 $2 $7
+Hide $6 $3 $2
+Hide $6 $2 $4
+Caption $1E $0
+Hide $0 $1 $2
+Variable $3 $0
+EndIf
+If $19 $8 $0
+If $D $3 $E
+If $15 $2 $6
+Bit $1 $2 $6
+Hide $6 $3 $8
+Hide $6 $2 $2
+Caption $19 $0
+Hide $0 $1 $8
+EndIf
+If $19 $1 $0
+If $D $3 $C
+If $15 $2 $5
+Bit $1 $2 $5
+Hide $6 $3 $1
+Hide $6 $2 $8
+Caption $16 $0
+Hide $0 $1 $1
+EndIf
+If $19 $2 $0
+If $D $3 $A
+If $15 $2 $4
+Bit $1 $2 $4
+Hide $6 $3 $2
+Hide $6 $2 $1
+Caption $1A $0
+Hide $0 $1 $2
+EndIf
+If $19 $8 $0
+If $D $3 $8
+If $15 $2 $3
+Bit $1 $2 $3
+Hide $6 $3 $8
+Hide $6 $2 $2
+Caption $18 $0
+Hide $0 $1 $8
+EndIf
+If $19 $2 $0
+If $D $3 $6
+If $15 $2 $2
+Bit $1 $2 $2
+Hide $6 $3 $2
+Hide $6 $2 $8
+Caption $17 $0
+Hide $0 $1 $2
+EndIf
+If $19 $4 $0
+If $D $3 $4
+If $15 $2 $1
+Bit $1 $2 $1
+Hide $6 $3 $4
+Hide $6 $2 $2
+Caption $19 $0
+Hide $0 $1 $4
+EndIf
+If $19 $1 $0
+If $D $3 $2
+If $15 $2 $0
+Bit $1 $2 $0
+Hide $6 $3 $1
+Hide $6 $2 $4
+Caption $16 $0
+Hide $0 $1 $1
+End
+
+Monster idx [302] Pointer offset [4074142]
+If $15 $0 $6
+Caption $4F $0
+Bit $1 $0 $6
+EndIf
+If $15 $0 $5
+If $6 $36 $78
+Target $36
+Haste
+Protect
+Bit $1 $0 $5
+Caption $4E $0
+EndIf
+If $B $3C $0
+Misc $0 $0
+Target $44
+Hailstone
+EndIf
+If $C $1 $8
+Variable $1 $81
+Animation $2 $1 $0
+RandomSpell Attack Special Tentacle
+Wait
+Target $44
+RandomSpell Attack Attack Stone
+EndIf
+If $D $1 $8
+RandomSpell Magnitude_8 Aqua_Breath Magnitude_8
+Hide $6 $4 $1
+Animation $7 $1 $0
+Hide $6 $2 $1
+Variable $1 $0
+Bit $2 $0 $1
+EndIf
+End
+If $5 $0 $0
+If $15 $0 $4
+If $6 $36 $50
+Event $16
+Bit $1 $0 $4
+If $12 $0 $0
+Hide $6 $1 $FF
+EndIf
+If $2 $D0 $D0
+Caption $50 $0
+Hide $6 $1 $FF
+EndIf
+If $D $3 $8
+If $D $1 $2
+Variable $3 $0
+Animation $1 $1 $0
+Variable $1 $C1
+EndIf
+If $1 $0 $0
+Variable $3 $81
+EndIf
+If $14 $0 $3
+If $4 $1 $0
+Firaga
+EndIf
+If $14 $0 $3
+If $4 $2 $0
+Blizzaga
+EndIf
+If $14 $0 $3
+If $4 $4 $0
+Thundata
+EndIf
+If $14 $0 $2
+If $1 $2 $2
+Variable $3 $84
+EndIf
+If $1 $2 $2
+Variable $2 $81
+Variable $3 $84
+If $15 $0 $2
+If $D $2 $4
+Bit $1 $0 $2
+Bit $1 $0 $3
+Animation $0 $1 $0
+Caption $1 $0
+EndIf
+End
+
+Monster idx [303] Pointer offset [4074380]
+Attack
+Wait
+RandomSpell Attack Attack Fireball
+End
+If $12 $0 $0
+Target $43
+Snort
+Misc $2 $0
+End
+
+Monster idx [304] Pointer offset [4074398]
+RandomSpell Gravity Graviga Break
+Wait
+RandomSpell Gravity Graviga Banish
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Rasp Confuse Protect
+End
+
+Monster idx [305] Pointer offset [4074422]
+If $15 $0 $0
+Caption $5D $0
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+Caption $5E $0
+Bit $0 $0 $0
+EndIf
+Attack
+End
+If $12 $0 $0
+Hide $B $1 $FF
+EndIf
+End
+
+Monster idx [306] Pointer offset [4074457]
+RandomSpell Fire Blizzard Thunder
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Slow Stop Haste
+End
+
+Monster idx [307] Pointer offset [4074476]
+RandomSpell Poison Bio Death
+Wait
+Target $38
+RandomSpell Esuna Dispel Dispel
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Berserk Slow Hastega
+End
+
+Monster idx [308] Pointer offset [4074502]
+If $D $1 $1
+Target $47
+RandomSpell Attack Special Attack
+Variable $1 $0
+EndIf
+If $9 $36 $13
+If $D $4 $2
+Target $36
+Haste
+EndIf
+If $D $4 $1
+Target $43
+Megavolt
+Variable $1 $1
+End
+If $1B $B0 $1
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+End
+
+Monster idx [309] Pointer offset [4074553]
+If $14 $0 $0
+If $B $14 $0
+Hide $9 $2 $2
+Bit $2 $0 $0
+EndIf
+If $D $24 $2
+Variable $24 $0
+Hide $8 $3 $2
+Misc $0 $0
+Bit $1 $0 $0
+EndIf
+If $15 $0 $0
+RandomSpell Attack Attack Megavolt
+Wait
+RandomSpell Attack El_Nino Special
+End
+If $15 $3 $0
+If $12 $0 $0
+Bit $1 $3 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+Variable $24 $81
+End
+
+Monster idx [310] Pointer offset [4074628]
+If $1 $A $7
+Target $47
+RandomSpell Attack Special Hailstone
+Wait
+RandomSpell Dancing_Flame Magnitude_8 Hailstone
+EndIf
+If $17 $B $0
+Target $47
+RandomSpell Attack Dancing_Flame Special
+Wait
+Target $47
+RandomSpell Attack Magnitude_8 Hailstone
+Wait
+Target $47
+RandomSpell Attack Attack Dancing_Flame
+EndIf
+RandomSpell Attack Dancing_Flame Special
+Wait
+RandomSpell Attack Attack Dancing_Flame
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+End
+
+Monster idx [311] Pointer offset [4074689]
+Attack
+End
+End
+
+Monster idx [312] Pointer offset [4074692]
+If $B $F $0
+Misc $0 $0
+Barrier_Change
+Animation $4 $4 $0
+Variable $3 $81
+If $D $3 $7
+Variable $3 $0
+Target $44
+Special
+Hide $A $4 $4
+Animation $7 $4 $0
+Hide $A $2 $4
+EndIf
+If $1A $36 $2
+Target $47
+RandomSpell Mysidian_Rabbit Firaga Firaga
+EndIf
+If $1A $36 $1
+Target $47
+RandomSpell Mysidian_Rabbit Blizzaga Blizzaga
+EndIf
+If $1A $36 $10
+Target $47
+RandomSpell Mysidian_Rabbit Thundata Thundata
+EndIf
+If $1A $36 $20
+Target $43
+RandomSpell Mysidian_Rabbit Bio Bio
+EndIf
+If $1A $36 $4
+Target $47
+RandomSpell Mysidian_Rabbit Tornado Tornado
+EndIf
+If $1A $36 $8
+Target $47
+RandomSpell Mysidian_Rabbit Holy Holy
+EndIf
+If $1A $36 $80
+Target $47
+RandomSpell Mysidian_Rabbit Quake Quake
+EndIf
+If $1A $36 $40
+Target $47
+RandomSpell Mysidian_Rabbit Tsunami Tsunami
+EndIf
+Attack
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Traveller Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [313] Pointer offset [4074838]
+RandomSpell Quake Tornado Holy
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Syphon Slowga Regen
+End
+
+Monster idx [314] Pointer offset [4074857]
+Attack
+End
+If $1 $5 $5
+Bit $1 $D $4
+Bit $2 $D $5
+Hide $0 $3 $1
+Hide $0 $0 $2
+Event $F
+Hide $0 $1 $1
+End
+
+Monster idx [315] Pointer offset [4074886]
+Caption $8 $0
+Target $36
+RandomSpell Flee Flee Flee
+End
+End
+
+Monster idx [316] Pointer offset [4074897]
+If $14 $24 $7
+If $B $1E $0
+Release
+EndIf
+If $15 $24 $7
+If $8 $48 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $49 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4A $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4B $12
+Grab
+EndIf
+If $15 $24 $7
+Misc $0 $0
+RandomSpell Attack Bio Special
+Wait
+Misc $0 $0
+RandomSpell Special Entangle Special
+Wait
+Misc $0 $0
+RandomSpell Attack Bio Special
+Wait
+Misc $0 $0
+RandomSpell Poison Special Entangle
+End
+If $12 $0 $0
+If $14 $24 $7
+Release
+EndIf
+If $15 $24 $7
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [317] Pointer offset [4075006]
+If $14 $24 $7
+If $B $1E $0
+Release
+EndIf
+If $15 $24 $7
+If $8 $48 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $49 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4A $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4B $12
+Grab
+EndIf
+If $15 $24 $7
+Misc $0 $0
+RandomSpell Attack Attack Special
+Wait
+Misc $0 $0
+RandomSpell Attack Entangle Special
+Wait
+Misc $0 $0
+RandomSpell Attack Bio Special
+Wait
+Misc $0 $0
+RandomSpell Poison Special Entangle
+End
+If $12 $0 $0
+If $14 $24 $7
+Release
+EndIf
+If $15 $24 $7
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [318] Pointer offset [4075115]
+If $14 $24 $7
+If $B $1E $0
+Release
+EndIf
+If $15 $24 $7
+If $8 $48 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $49 $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4A $12
+Grab
+EndIf
+If $15 $24 $7
+If $8 $4B $12
+Grab
+EndIf
+If $15 $24 $7
+Misc $0 $0
+RandomSpell Attack Bio Special
+Wait
+Misc $0 $0
+RandomSpell Attack Entangle Special
+Wait
+Misc $0 $0
+RandomSpell Attack Attack Special
+Wait
+Misc $0 $0
+RandomSpell Poison Special Entangle
+End
+If $12 $0 $0
+If $14 $24 $7
+Release
+EndIf
+If $15 $24 $7
+If $5 $0 $0
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [319] Pointer offset [4075224]
+If $12 $8 $0
+If $B $F $0
+Hide $8 $0 $8
+EndIf
+If $11 $8 $0
+RandomSpell Attack Attack Special
+EndIf
+End
+If $12 $0 $0
+Hide $0 $0 $8
+Hide $9 $3 $8
+Misc $0 $0
+End
+
+Monster idx [320] Pointer offset [4075263]
+If $12 $2 $0
+If $B $1E $0
+Hide $8 $0 $2
+EndIf
+If $11 $2 $0
+RandomSpell Attack Attack Shamshir
+Wait
+RandomSpell Attack Attack Special
+EndIf
+End
+If $12 $0 $0
+Hide $0 $0 $2
+Hide $9 $3 $2
+Misc $0 $0
+End
+
+Monster idx [321] Pointer offset [4075307]
+If $12 $8 $0
+If $B $14 $0
+Hide $8 $0 $8
+EndIf
+If $11 $8 $0
+RandomSpell Attack Attack Special
+EndIf
+End
+If $12 $0 $0
+Hide $0 $0 $8
+Hide $9 $3 $8
+Misc $0 $0
+End
+
+Monster idx [322] Pointer offset [4075346]
+If $12 $2 $0
+If $B $28 $0
+Hide $8 $0 $2
+EndIf
+If $11 $2 $0
+RandomSpell Attack Attack Metal_Cutter
+EndIf
+End
+If $12 $0 $0
+Hide $0 $0 $2
+Hide $9 $3 $2
+Misc $0 $0
+End
+
+Monster idx [323] Pointer offset [4075385]
+RandomSpell Firaga Blizzaga Thundata
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Sleep Rasp Shell
+End
+
+Monster idx [324] Pointer offset [4075404]
+RandomSpell Rasp Rasp Blizzaga
+Wait
+RandomSpell Blizzaga Blizzaga Rasp
+Wait
+RandomSpell Rasp Freezing_Dust Blizzaga
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $4 $1 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Rasp
+EndIf
+If $1 $7 $9
+Target $45
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Freezing_Dust
+EndIf
+If $1 $A $C
+Target $45
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Freezing_Dust
+EndIf
+If $1 $D $10
+Target $45
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Freezing_Dust
+End
+
+Monster idx [325] Pointer offset [4075470]
+If $6 $36 $C
+Target $47
+RandomSpell Diffusion_Laser Diffusion_Laser Magitek_Laser
+Wait
+Target $47
+RandomSpell Diffusion_Laser Diffusion_Laser Magitek_Laser
+EndIf
+RandomSpell Atomic_Ray Magitek_Laser Magitek_Laser
+End
+If $12 $0 $0
+If $13 $1 $2
+Bit $1 $0 $0
+Hide $1 $1 $4
+End
+
+Monster idx [326] Pointer offset [4075510]
+End
+End
+
+Monster idx [327] Pointer offset [4075512]
+If $6 $36 $C
+Target $47
+Missile
+Wait
+Target $47
+RandomSpell Launcher Missile Missile
+Wait
+Target $47
+Launcher
+EndIf
+Missile
+End
+If $12 $0 $0
+Hide $1 $1 $10
+End
+
+Monster idx [328] Pointer offset [4075542]
+If $B $28 $0
+Misc $0 $0
+Variable $3 $1
+Hide $E $2 $1
+Hide $E $1 $2
+EndIf
+If $6 $36 $78
+Target $47
+RandomSpell Attack Flash_Rain Thundata
+Wait
+Target $47
+RandomSpell Flash_Rain Thundata Flash_Rain
+Wait
+Target $47
+RandomSpell Flash_Rain Attack Thundata
+Wait
+Target $47
+RandomSpell Flash_Rain Thundata Attack
+EndIf
+RandomSpell Attack Attack Thundata
+Wait
+RandomSpell Attack Thundara Mysidian_Rabbit
+Wait
+RandomSpell Attack Thundara Thundata
+Wait
+RandomSpell Attack Thundara Mysidian_Rabbit
+EndIf
+End
+If $12 $0 $0
+Caption $7A $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Thundara
+Variable $0 $81
+If $D $0 $4
+Variable $0 $0
+Variable $3 $0
+Hide $E $2 $1
+Hide $E $1 $2
+End
+
+Monster idx [329] Pointer offset [4075656]
+If $15 $24 $0
+Bit $0 $24 $0
+Caption $3F $0
+Hide $3 $2 $3C
+EndIf
+If $13 $1 $1
+Target $47
+RandomSpell Special Northern_Cross Northern_Cross
+Wait
+Target $47
+RandomSpell Special Absolute_Zero Absolute_Zero
+Wait
+Target $47
+RandomSpell Special Avalanche Avalanche
+EndIf
+If $13 $1 $2
+Target $47
+RandomSpell Attack Snowstorm_ Snowstorm_
+Wait
+Target $47
+RandomSpell Special Blizzaga Blizzaga
+Wait
+Target $47
+RandomSpell Special Special Freezing_Dust
+EndIf
+If $13 $1 $3
+Target $47
+RandomSpell Attack Snowstorm_ Mysidian_Rabbit
+Wait
+Target $47
+RandomSpell Blizzaga Special Mysidian_Rabbit
+Wait
+Target $47
+RandomSpell Special Freezing_Dust Mysidian_Rabbit
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Special Mysidian_Rabbit
+Wait
+RandomSpell Attack Blizzaga Mysidian_Rabbit
+End
+If $12 $0 $0
+Target $47
+RandomSpell Absolute_Zero Northern_Cross Avalanche
+Hide $C $1 $FF
+EndIf
+If $13 $1 $2
+If $5 $0 $0
+RandomSpell Attack Special Mysidian_Rabbit
+EndIf
+If $5 $0 $0
+RandomSpell Attack Attack Mysidian_Rabbit
+EndIf
+End
+
+Monster idx [330] Pointer offset [4075800]
+Attack
+Wait
+RandomSpell Attack Attack Poison
+Wait
+RandomSpell Attack Blizzara Thunder
+Wait
+RandomSpell Confuse Drain Blizzard
+End
+If $12 $0 $0
+Caption $15 $0
+Target $36
+Flee
+End
+
+Monster idx [331] Pointer offset [4075828]
+If $6 $36 $78
+Target $47
+RandomSpell Attack Attack Aero
+Wait
+Target $47
+RandomSpell Attack Special Cyclonic
+EndIf
+RandomSpell Attack Wind_Slash Leaf_Swirl
+Wait
+RandomSpell Attack Wind_Slash Attack
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [332] Pointer offset [4075874]
+If $B $14 $0
+Misc $0 $0
+If $8 $44 $1F
+Target $43
+_50_Gs
+EndIf
+RandomSpell Attack Quake Quake
+Wait
+RandomSpell Attack Magnitude_8 Landslide
+Wait
+RandomSpell Attack Magnitude_8 Quake
+Wait
+RandomSpell Attack Attack Landslide
+EndIf
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Special
+End
+
+Monster idx [333] Pointer offset [4075928]
+If $B $F $0
+Misc $29 $FF
+RandomSpell Attack Attack Special
+EndIf
+RandomSpell Attack Attack Special
+End
+If $12 $6 $0
+Misc $6 $30
+EndIf
+If $4 $8 $0
+Target $45
+Special
+EndIf
+If $4 $1 $0
+Misc $29 $22
+Misc $0 $36
+End
+
+Monster idx [334] Pointer offset [4075972]
+RandomSpell Attack Attack Special
+End
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Special
+End
+
+Monster idx [335] Pointer offset [4075986]
+Attack
+End
+End
+
+Monster idx [336] Pointer offset [4075989]
+If $14 $0 $0
+If $D $3 $2
+Bit $2 $0 $0
+Variable $24 $0
+Variable $3 $0
+Target $43
+Thundata
+EndIf
+If $14 $0 $0
+Variable $3 $81
+EndIf
+If $8 $48 $17
+If $9 $48 $7
+If $9 $36 $17
+Reflect
+EndIf
+If $8 $49 $17
+If $9 $49 $7
+If $9 $36 $17
+Reflect
+EndIf
+If $8 $4A $17
+If $9 $4A $7
+If $9 $36 $17
+Reflect
+EndIf
+If $8 $4B $17
+If $9 $4B $7
+If $9 $36 $17
+Reflect
+EndIf
+If $8 $36 $17
+Target $47
+Attack
+Wait
+Target $36
+RandomSpell Thundara Thundara Thunder
+Wait
+Bit $2 $0 $1
+Target $47
+Attack
+Wait
+Target $36
+RandomSpell Mysidian_Rabbit Thundara Thunder
+Bit $2 $0 $1
+EndIf
+RandomSpell Gigavolt Thunder Thundara
+Wait
+RandomSpell Gigavolt Thunder Thunder
+Wait
+Bit $2 $0 $1
+RandomSpell Thundara Thunder Thunder
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $1 $0 $0
+If $15 $0 $0
+Variable $24 $81
+If $D $24 $4
+If $15 $0 $0
+Bit $1 $0 $0
+Caption $73 $0
+EndIf
+If $1 $2 $2
+If $15 $0 $0
+RandomSpell Mysidian_Rabbit Thunder Thundara
+End
+
+Monster idx [337] Pointer offset [4076177]
+Target $47
+RandomSpell Attack Doom Will_o_the_Wisp
+Wait
+Target $47
+RandomSpell Attack Doom Apparition
+Wait
+Target $47
+RandomSpell Attack Doom Will_o_the_Wisp
+Wait
+Target $44
+Disaster
+End
+If $12 $0 $0
+Hide $C $1 $0
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Attack Mysidian_Rabbit
+End
+
+Monster idx [338] Pointer offset [4076220]
+If $15 $24 $0
+Tsunami
+Bit $1 $24 $0
+EndIf
+If $16 $28 $0
+Misc $4 $0
+Tsunami
+EndIf
+If $15 $24 $1
+If $8 $48 $13
+If $9 $36 $13
+If $9 $36 $16
+Target $36
+Slow
+Target $48
+Rippler
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $8 $49 $13
+If $9 $36 $13
+If $9 $36 $16
+Target $36
+Slow
+Target $49
+Rippler
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $8 $4A $13
+If $9 $36 $13
+If $9 $36 $16
+Target $36
+Slow
+Target $4A
+Rippler
+Bit $1 $24 $1
+EndIf
+If $15 $24 $1
+If $8 $4B $13
+If $9 $36 $13
+If $9 $36 $16
+Target $36
+Slow
+Target $4B
+Rippler
+Bit $1 $24 $1
+EndIf
+If $6 $36 $80
+Target $47
+RandomSpell Attack Aqua_Breath Aqua_Breath
+Wait
+Target $47
+RandomSpell Attack Flash_Rain Flash_Rain
+Bit $2 $24 $1
+EndIf
+RandomSpell Attack Acid_Rain Acid_Rain
+Wait
+RandomSpell Attack Attack Acid_Rain
+Bit $2 $24 $1
+End
+If $12 $0 $0
+Hide $C $1 $0
+EndIf
+If $1 $2 $2
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [339] Pointer offset [4076410]
+If $B $28 $0
+Misc $0 $0
+RandomSpell Southern_Cross Level_4_Flare Flare_Star
+EndIf
+If $15 $24 $0
+If $8 $48 $17
+Target $48
+Special
+Caption $76 $0
+Bit $1 $24 $0
+EndIf
+If $15 $24 $0
+If $8 $49 $17
+Target $49
+Special
+Caption $76 $0
+Bit $1 $24 $0
+EndIf
+If $15 $24 $0
+If $8 $4A $17
+Target $4A
+Special
+Caption $76 $0
+Bit $1 $24 $0
+EndIf
+If $15 $24 $0
+If $8 $4B $17
+Target $4B
+Special
+Caption $76 $0
+Bit $1 $24 $0
+EndIf
+If $6 $36 $50
+Target $47
+RandomSpell Flare Firaga Flare
+Wait
+Target $47
+RandomSpell Flare Firaga Flare
+Bit $2 $24 $0
+EndIf
+RandomSpell Fira Fireball Fira
+Wait
+RandomSpell Fira Fira Fireball
+Bit $2 $24 $0
+End
+If $12 $0 $0
+Hide $C $1 $0
+Bit $2 $24 $0
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [340] Pointer offset [4076556]
+Attack
+End
+If $12 $0 $0
+If $16 $3C $0
+If $13 $1 $0
+Misc $D $0
+Hide $4 $0 $20
+EndIf
+If $13 $1 $0
+If $12 $0 $0
+If $19 $1 $0
+Misc $D $0
+Hide $4 $0 $16
+EndIf
+If $13 $1 $0
+If $12 $0 $0
+If $19 $2 $0
+Misc $D $0
+Hide $4 $0 $11
+EndIf
+If $13 $1 $0
+If $12 $0 $0
+If $19 $4 $0
+Misc $D $0
+Hide $4 $0 $1A
+EndIf
+If $13 $1 $0
+If $12 $0 $0
+If $19 $8 $0
+Misc $D $0
+Hide $4 $0 $5
+EndIf
+If $13 $1 $0
+If $12 $0 $0
+If $19 $10 $0
+Misc $D $0
+Hide $4 $0 $E
+End
+
+Monster idx [341] Pointer offset [4076678]
+RandomSpell Attack Special Megavolt
+RandomSpell Attack Blizzard Blizzard
+Wait
+RandomSpell El_Nino Attack Attack
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+End
+
+Monster idx [342] Pointer offset [4076702]
+RandomSpell Blizzard Attack Mysidian_Rabbit
+Wait
+RandomSpell Attack Blizzard Mysidian_Rabbit
+Wait
+RandomSpell Mysidian_Rabbit Attack Leech
+End
+If $5 $0 $0
+Target $45
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [343] Pointer offset [4076728]
+If $6 $36 $4F
+Target $47
+RandomSpell Attack Attack Special
+EndIf
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+If $5 $0 $0
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+
+Monster idx [344] Pointer offset [4076753]
+If $6 $36 $50
+Target $47
+RandomSpell Attack Attack Mysidian_Rabbit
+Target $47
+RandomSpell Attack Attack Mysidian_Rabbit
+EndIf
+Attack
+Wait
+RandomSpell Attack Attack Shockwave
+Wait
+RandomSpell Attack Shockwave Shockwave
+End
+If $13 $1 $0
+Target $47
+RandomSpell Mysidian_Rabbit Shockwave Shockwave
+RandomSpell Shockwave Mysidian_Rabbit Shockwave
+RandomSpell Shockwave Shockwave Mysidian_Rabbit
+End
+
+Monster idx [345] Pointer offset [4076801]
+If $6 $36 $50
+Target $47
+RandomSpell Special Special Dread_Gaze
+Wait
+Target $47
+RandomSpell Special Special Dread_Gaze
+Wait
+Target $47
+RandomSpell Special Special Dread_Gaze
+Target $47
+RandomSpell Special Special Dread_Gaze
+Wait
+Target $47
+RandomSpell Dread_Gaze Magnitude_8 Reverse_Polarity
+EndIf
+RandomSpell Reverse_Polarity Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Reverse_Polarity Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Target $39
+RandomSpell Protect Protect Haste
+Wait
+Target $47
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+End
+If $13 $1 $0
+If $12 $0 $0
+Target $47
+Quake
+End
+
+Monster idx [346] Pointer offset [4076885]
+If $6 $36 $5A
+Target $47
+RandomSpell Southern_Cross Northern_Cross Flare_Star
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Southern_Cross Flare_Star Northern_Cross
+Wait
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [347] Pointer offset [4076921]
+If $6 $36 $5A
+Target $47
+RandomSpell Diffusion_Laser Gravity_Bomb Magitek_Laser
+Wait
+Target $47
+RandomSpell Diffusion_Laser Missile Absolute_Zero
+Wait
+Target $47
+RandomSpell Delta_Attack Gravity_Bomb Absolute_Zero
+EndIf
+RandomSpell Diffusion_Laser Gravity_Bomb Magitek_Laser
+Wait
+RandomSpell Diffusion_Laser Missile Atomic_Ray
+Wait
+RandomSpell Delta_Attack Gravity_Bomb Atomic_Ray
+End
+End
+
+Monster idx [348] Pointer offset [4076962]
+If $6 $36 $9D
+Target $47
+RandomSpell Thundata Thundata Silence
+Wait
+Target $47
+RandomSpell Holy Flare Rasp
+Wait
+Target $47
+RandomSpell Firaga Blizzara Thundata
+EndIf
+If $6 $36 $F0
+Target $47
+RandomSpell Reflect Stop Regenga
+Wait
+Target $47
+RandomSpell Blizzaga Thundata Sleep
+Wait
+Target $47
+RandomSpell Holy Flare Slowga
+EndIf
+Target $47
+RandomSpell Hastega Haste Imp
+Wait
+RandomSpell Firaga Firaga Confuse
+Wait
+RandomSpell Poison Drain Bio
+Target $44
+RandomSpell Dispel Mysidian_Rabbit Mysidian_Rabbit
+RandomSpell Dispel Mysidian_Rabbit Mysidian_Rabbit
+End
+If $6 $36 $28
+If $5 $0 $0
+Target $47
+RandomSpell Graviga Mysidian_Rabbit Mysidian_Rabbit
+Target $44
+RandomSpell Dispel Dispel Mysidian_Rabbit
+RandomSpell Dispel Dispel Mysidian_Rabbit
+EndIf
+If $6 $36 $50
+If $5 $0 $0
+Target $47
+RandomSpell Graviga Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [349] Pointer offset [4077079]
+Attack
+End
+If $12 $0 $0
+Target $47
+Special
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+Attack
+End
+
+Monster idx [350] Pointer offset [4077098]
+If $13 $1 $1
+Target $3D
+Arise
+EndIf
+RandomSpell White_Wind White_Wind Mysidian_Rabbit
+Wait
+RandomSpell White_Wind Special Mysidian_Rabbit
+Wait
+RandomSpell White_Wind White_Wind Mysidian_Rabbit
+Wait
+RandomSpell White_Wind Special Mysidian_Rabbit
+Wait
+RandomSpell White_Wind Mysidian_Rabbit Mysidian_Rabbit
+End
+End
+
+Monster idx [351] Pointer offset [4077132]
+If $6 $36 $50
+Target $47
+Meteo
+EndIf
+RandomSpell Tornado Meltdown Mysidian_Rabbit
+Wait
+RandomSpell Attack Attack Doom
+End
+If $12 $0 $0
+Target $47
+Special
+RandomSpell Special Mysidian_Rabbit Mysidian_Rabbit
+EndIf
+If $6 $36 $50
+If $5 $0 $0
+Target $47
+RandomSpell Meteo Trine Mysidian_Rabbit
+End
+
+Monster idx [352] Pointer offset [4077177]
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Mysidian_Rabbit Attack Attack
+Wait
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Special Mysidian_Rabbit Attack
+End
+If $12 $0 $0
+Misc $4 $0
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [353] Pointer offset [4077214]
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Mysidian_Rabbit Attack Attack
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+End
+If $12 $0 $0
+Misc $4 $0
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [354] Pointer offset [4077251]
+RandomSpell Mysidian_Rabbit Attack Attack
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+Wait
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Wait
+RandomSpell Attack Mysidian_Rabbit Special
+End
+If $12 $0 $0
+Misc $4 $0
+EndIf
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [355] Pointer offset [4077288]
+If $8 $43 $17
+RandomSpell Cura Esuna Haste
+EndIf
+If $8 $38 $17
+RandomSpell Firaga Blizzaga Thundata
+EndIf
+RandomSpell Bio Bio Poison
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+If $8 $43 $17
+RandomSpell Curaga Cure Regenga
+EndIf
+If $5 $0 $0
+If $8 $38 $17
+RandomSpell Stop Dispel Holy
+End
+
+Monster idx [356] Pointer offset [4077342]
+RandomSpell Meteor Meltdown Flare
+Wait
+RandomSpell Meteor Meltdown Flare
+Wait
+RandomSpell Meteor Meltdown Flare
+Wait
+Target $47
+Dispel
+RandomSpell Flare Flare Mysidian_Rabbit
+RandomSpell Flare Flare Mysidian_Rabbit
+RandomSpell Flare Flare Mysidian_Rabbit
+End
+If $12 $0 $0
+EndIf
+If $5 $0 $0
+RandomSpell Stop Thundata Regenga
+End
+
+Monster idx [357] Pointer offset [4077387]
+If $13 $1 $1
+RandomSpell Launcher Scintillation Magitek_Laser
+EndIf
+RandomSpell Magitek_Laser Magitek_Laser Special
+End
+If $12 $0 $0
+EndIf
+If $1 $0 $0
+RandomSpell Launcher Scintillation Mysidian_Rabbit
+End
+
+Monster idx [358] Pointer offset [4077415]
+If $8 $38 $17
+RandomSpell Firaga Blizzaga Thundata
+EndIf
+RandomSpell Fira Blizzara Thundara
+Wait
+RandomSpell Firaga Blizzaga Thundata
+Wait
+RandomSpell Firaga Blizzaga Thundata
+RandomSpell Firaga Blizzaga Thundata
+Wait
+RandomSpell Firaga Blizzaga Thundata
+RandomSpell Firaga Blizzaga Thundata
+Wait
+RandomSpell Firaga Blizzaga Thundata
+Wait
+RandomSpell Death Silence Bio
+RandomSpell Death Silence Bio
+End
+If $12 $0 $0
+Target $47
+Ultima
+EndIf
+If $5 $0 $0
+Target $36
+Barrier_Change
+End
+
+Monster idx [359] Pointer offset [4077482]
+If $11 $1 $0
+If $9 $36 $17
+Target $36
+Reflect
+EndIf
+If $15 $24 $0
+If $7 $36 $10
+Target $47
+Special
+Bit $1 $24 $0
+EndIf
+If $10 $0 $0
+RandomSpell Mysidian_Rabbit Blizzaga Thundata
+Wait
+RandomSpell Firaga Mysidian_Rabbit Thundata
+Wait
+RandomSpell Firaga Blizzaga Mysidian_Rabbit
+Bit $2 $24 $0
+EndIf
+Target $30
+RandomSpell Cure Mysidian_Rabbit Mysidian_Rabbit
+End
+If $19 $8 $0
+If $12 $8 $0
+Hide $8 $3 $8
+Hide $9 $0 $8
+EndIf
+If $19 $10 $0
+If $12 $10 $0
+Hide $8 $3 $10
+Hide $9 $0 $10
+EndIf
+If $5 $0 $0
+RandomSpell Attack Attack Mysidian_Rabbit
+End
+
+Monster idx [360] Pointer offset [4077583]
+If $15 $24 $0
+Caption $51 $0
+Bit $1 $24 $0
+EndIf
+If $14 $24 $1
+If $15 $24 $4
+If $D $0 $2
+Caption $56 $0
+Bit $1 $24 $4
+EndIf
+If $14 $24 $1
+If $15 $24 $3
+If $D $0 $1
+Caption $52 $0
+Bit $1 $24 $3
+EndIf
+If $14 $24 $1
+If $15 $24 $2
+If $D $0 $0
+Caption $54 $0
+Bit $1 $24 $2
+EndIf
+If $14 $24 $1
+RandomSpell Attack Tentacle Special
+Wait
+RandomSpell Attack Tentacle Special
+Variable $0 $81
+EndIf
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Tentacle Special
+End
+If $5 $0 $0
+If $15 $24 $1
+If $6 $36 $64
+Caption $53 $0
+Hide $3 $0 $1
+Caption $57 $0
+Bit $1 $24 $1
+EndIf
+End
+
+Monster idx [361] Pointer offset [4077710]
+If $8 $36 $5
+Target $36
+Imp
+Flee
+EndIf
+RandomSpell Attack Freezing_Dust Special
+Wait
+RandomSpell Attack Attack Blizzara
+Wait
+RandomSpell Attack Blizzara Snowstorm
+End
+If $1 $2 $2
+Target $45
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Silence_
+End
+
+Monster idx [362] Pointer offset [4077745]
+If $15 $0 $0
+Misc $1 $36
+Bit $1 $0 $0
+EndIf
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Thundara Thundara Thundata
+Wait
+RandomSpell Thundara Needles Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+End
+
+Monster idx [363] Pointer offset [4077782]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Thundara Thundara Thundata
+Wait
+RandomSpell Thundara Needles Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+If $6 $36 $A0
+Target $36
+Flee
+EndIf
+End
+
+Monster idx [364] Pointer offset [4077819]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Thundara Thundara Thundata
+Wait
+RandomSpell Thundara Needles Special
+End
+If $12 $0 $0
+Target $44
+Humbaba_Breath
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+If $6 $36 $78
+Target $44
+Humbaba_Breath
+Target $44
+Humbaba_Breath
+Misc $2 $0
+EndIf
+End
+
+Monster idx [365] Pointer offset [4077865]
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Thundara Thundara Thundata
+Wait
+RandomSpell Thundara Needles Special
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+RandomSpell Thundara Mysidian_Rabbit Mysidian_Rabbit
+End
+
+Monster idx [366] Pointer offset [4077898]
+If $1B $E5 $1
+Fire_Beam
+Event $11
+Misc $2 $0
+End
+End
+
+Monster idx [367] Pointer offset [4077910]
+Attack
+End
+If $5 $0 $0
+Event $1D
+Misc $2 $0
+End
+
+Monster idx [368] Pointer offset [4077922]
+RandomSpell Kiba Attack Attack
+End
+If $5 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Attack
+End
+
+Monster idx [369] Pointer offset [4077936]
+RandomSpell Gravity Inhale Inhale
+Wait
+RandomSpell Gravity Inhale Inhale
+End
+If $1 $2 $2
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Inhale
+EndIf
+If $1 $0 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Freezing_Dust
+EndIf
+End
+
+Monster idx [370] Pointer offset [4077965]
+If $15 $D $1
+Caption $23 $0
+EndIf
+Misc $3 $0
+Caption $24 $0
+Misc $9 $0
+End
+If $3 $FE $FE
+If $15 $D $1
+Misc $3 $0
+Bit $1 $D $1
+Event $D
+Misc $2 $0
+EndIf
+If $5 $0 $0
+Event $1C
+Misc $2 $0
+End
+
+Monster idx [371] Pointer offset [4078014]
+RandomSpell Attack Attack Poison
+Wait
+RandomSpell Attack Firaga Thunder
+Wait
+RandomSpell Bio Drain Bio
+End
+If $12 $0 $0
+Hide $B $3 $2
+Event $17
+Misc $2 $0
+End
+
+Monster idx [372] Pointer offset [4078043]
+If $D $0 $3
+Variable $0 $0
+Target $36
+Item $0 Potion Hi-Potion
+EndIf
+RandomSpell Poison Fira Dischord
+Wait
+RandomSpell Attack Attack Special
+Wait
+RandomSpell Attack Rasp Slow
+End
+If $12 $0 $0
+Caption $4B $0
+Misc $2 $0
+EndIf
+If $5 $0 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Variable $0 $81
+End
+
+Monster idx [373] Pointer offset [4078095]
+RandomSpell Attack Attack Attack
+End
+If $1 $5 $5
+Bit $1 $D $5
+Bit $2 $D $4
+Hide $0 $3 $4
+Hide $0 $0 $8
+Event $E
+Hide $0 $1 $4
+End
+
+Monster idx [374] Pointer offset [4078127]
+If $1B $3B $0
+RandomSpell Attack Attack Special
+EndIf
+End
+End
+
+Monster idx [375] Pointer offset [4078138]
+Attack
+End
+End
+
+Monster idx [376] Pointer offset [4078141]
+Attack
+End
+End
+
+Monster idx [377] Pointer offset [4078144]
+End
+End
+
+Monster idx [378] Pointer offset [4078146]
+Target $2B
+Fire
+Fira
+Firaga
+Event $1A
+Misc $2 $0
+End
+End
+
+Monster idx [379] Pointer offset [4078158]
+Misc $7 $36
+If $1B $80 $1
+Event $13
+Hide $0 $1 $1
+EndIf
+If $1B $81 $1
+Event $14
+Misc $2 $0
+EndIf
+If $1B $82 $1
+Event $15
+Misc $2 $0
+EndIf
+If $1B $85 $1
+Event $18
+Misc $2 $0
+EndIf
+If $1B $86 $1
+Event $19
+Misc $2 $0
+EndIf
+If $1B $89 $1
+Event $1E
+Misc $2 $0
+EndIf
+End
+End
+
+Monster idx [380] Pointer offset [4078224]
+Attack
+End
+End
+
+Monster idx [381] Pointer offset [4078227]
+If $14 $24 $0
+Caption $83 $0
+Animation $C $1 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Animation $C $1 $0
+RandomSpell Mysidian_Rabbit Mysidian_Rabbit Mysidian_Rabbit
+Wait
+Animation $B $1 $0
+Target $47
+Ultima
+Bit $2 $24 $0
+EndIf
+If $6 $36 $FF
+Target $47
+RandomSpell Firaga Tsunami Quake
+Wait
+Target $47
+RandomSpell Firaga Meteor Flare_Star
+Wait
+Target $47
+RandomSpell Meteor Quake Tsunami
+Wait
+Target $47
+RandomSpell Firaga Firaga Flare_Star
+EndIf
+If $15 $24 $3
+Caption $8B $0
+Animation $B $1 $0
+Bit $1 $24 $3
+EndIf
+RandomSpell Firaga Blizzaga Southern_Cross
+Wait
+RandomSpell Thundata Blizzaga Firaga
+Wait
+RandomSpell Thundata Thundata Southern_Cross
+Wait
+RandomSpell Firaga Northern_Cross Northern_Cross
+End
+If $12 $0 $0
+Hide $C $1 $FF
+EndIf
+If $5 $0 $0
+If $15 $24 $0
+RandomSpell Attack Mysidian_Rabbit Mysidian_Rabbit
+Variable $3 $81
+If $D $3 $C
+Bit $1 $24 $0
+Variable $3 $0
+End
+
+Monster idx [382] Pointer offset [4078368]
+Attack
+End
+End
+
+Monster idx [383] Pointer offset [4078371]
+Attack
+End
+End
+

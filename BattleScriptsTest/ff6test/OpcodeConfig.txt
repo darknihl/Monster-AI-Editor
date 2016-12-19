@@ -13,7 +13,7 @@ Opcode Thundara 07 0
 Opcode Bio 08 0
 Opcode Firaga 09 0
 Opcode Blizzaga 0A 0
-Opcode Thundaga 0B 0
+Opcode Thundata 0B 0
 Opcode Break 0C 0
 Opcode Death 0D 0
 Opcode Holy 0E 0
@@ -197,7 +197,7 @@ Opcode Magitek_Barrier BF 0
 Opcode Heartless_Angel C0 0
 Opcode Barrier_Change C1 0
 Opcode Flee C2 0
-Opcode 50_Gs C3 0
+Opcode _50_Gs C3 0
 Opcode Mind_Blast C4 0
 Opcode Northern_Cross C5 0
 Opcode Flare_Star C6 0
@@ -599,8 +599,8 @@ Parameter Spell Moogle_Rush FA
 Parameter Spell Punishing_Meteor FB
 Parameter Spell Takedown FC
 Parameter Spell Wild_Fang FD
-Parameter Spell Nothing FE
-Parameter Spell ??????? FF
+Parameter Spell Mysidian_Rabbit FE
+Parameter Spell Nothing FF
 
 Type Item String
 Parameter Item Dagger 00

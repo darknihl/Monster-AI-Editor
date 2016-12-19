@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Reflection;
 using System.Web;
-using BattleScriptsTest;
+using BattleScripts;
 
 
-namespace BattleScriptsTest
+namespace BattleScripts
 {
     public class RomData
     {

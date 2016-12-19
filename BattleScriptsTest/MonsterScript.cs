@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
-namespace BattleScriptsTest
+namespace BattleScripts
 {
     public class MonsterCommand
     {
@@ -35,7 +36,13 @@ namespace BattleScriptsTest
             while (true)
             {
                 MonsterCommand mc = new MonsterCommand();
-                byte OpcodeHex = Rom.Read8();
+                int OpcodeHex = Rom.Read16();
+
+                if (OpcodeHex < 0xFB00 && OpcodeHex > 0xFCFF)
+                {
+                    Rom.Seek(-2, SeekOrigin.Current);
+                    OpcodeHex = Rom.Read8();
+                }
 
                 Opcode op = ot.LookupOpcodeByHex(OpcodeHex);
                 mc.OpcodeName = op.Name;
@@ -44,7 +51,7 @@ namespace BattleScriptsTest
                 {
                     uint ParameterHex = 0;
                     ParameterHex = Rom.Read8();
-
+                     
                     if (ot.LookupParameterType(ParameterName) == null)
                         // Remove this later when all types are in the config file
                         mc.ParameterList.Add(String.Format("${0:X}", ParameterHex));

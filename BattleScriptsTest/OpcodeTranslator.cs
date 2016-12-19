@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace BattleScriptsTest
+namespace BattleScripts
 {
     public enum ParamValueType { String = 0, Int8 };
 
@@ -36,7 +36,7 @@ namespace BattleScriptsTest
                     case "Opcode":
                         Opcode opcode = new Opcode();
                         opcode.Name = tokens[1];
-                        opcode.Hex = Byte.Parse(tokens[2], System.Globalization.NumberStyles.HexNumber);
+                        opcode.Hex = int.Parse(tokens[2], System.Globalization.NumberStyles.HexNumber);
                         opcode.NumParameters = int.Parse(tokens[3]);
                         for(int i = 0; i < opcode.NumParameters; i++)
                             opcode.Parameters.Add(tokens[4+i]);
@@ -74,13 +74,14 @@ namespace BattleScriptsTest
             throw new KeyNotFoundException();
         }
 
-        public Opcode LookupOpcodeByHex(byte Hex)
+        public Opcode LookupOpcodeByHex(int Hex)
         {
             if (HexOpcodeList.ContainsKey(Hex))
                 return HexOpcodeList[Hex];
 
             throw new KeyNotFoundException();
         }
+
 
         public ParameterType LookupParameterType(string type)
         {
@@ -97,7 +98,7 @@ namespace BattleScriptsTest
     public class Opcode
     {
         public string Name;
-        public byte Hex;
+        public int Hex;
         public int NumParameters;
 
         public List<string> Parameters = new List<string>();

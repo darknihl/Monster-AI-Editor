@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleScriptsTest
+namespace BattleScripts
 {
     public class Program
     {
-        public const string RomFileName = @"G:\ff6test\FF6MTEST.sfc";
-        public const string ConfigFileName = @"G:\ff6test\OpcodeConfig.txt";
-        public const string NormalScriptOutputFileName = @"G:\ff6test\normalscripts.txt";
+        public const string RomFileName = @"./ff6test/FF6MTEST.sfc";
+        public const string ConfigFileName = @"./ff6test/OpcodeConfig.txt";
+        public const string NormalScriptOutputFileName = @"./ff6test/normalscripts.txt";
         public const int NumMonsters = 384;
         public int ScriptOffset;
 

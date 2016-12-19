@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace BattleScriptsTest
+namespace BattleScripts
 { 
     public class RomFileIO
     {
@@ -49,6 +49,12 @@ namespace BattleScriptsTest
         {
             if (ROM != null)
                 ROM.Seek(FileOffset, SeekOrigin.Begin);
+        }
+
+        public void Seek(int FileOffset, SeekOrigin Origin)
+        {
+            if (ROM != null)
+                ROM.Seek(FileOffset, Origin);
         }
 
         public bool IsOpen()
