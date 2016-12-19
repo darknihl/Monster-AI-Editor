@@ -38,7 +38,7 @@ namespace BattleScripts
                 MonsterCommand mc = new MonsterCommand();
                 int OpcodeHex = Rom.Read8();
 
-                if (OpcodeHex == 0xFB || OpcodeHex == 0XFC)
+                if (OpcodeHex == 0xFB || OpcodeHex == 0xFC)
                 {
                     Rom.Seek(-1, SeekOrigin.Current);
                     OpcodeHex = Rom.Read16();
@@ -68,9 +68,9 @@ namespace BattleScripts
 
                 CommandList.Add(mc);
 
-                if (op.Name == "End" && ActiveScriptEnded)
+                if (op.Name == "EndPhase" && ActiveScriptEnded)
                     break;
-                else if (op.Name == "End")
+                else if (op.Name == "EndPhase")
                     ActiveScriptEnded = true;
             }
 

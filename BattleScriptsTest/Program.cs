@@ -24,7 +24,7 @@ namespace BattleScripts
             ot.LoadConfigurationFile(ConfigFileName);
 
             ExportScriptsNormal(Rom, NormalScriptOutputFileName);
-            ExportScriptsHard(Rom, HardScriptOutputFilename);
+            // ExportScriptsHard(Rom, HardScriptOutputFilename);
             Rom.Close();
         }
 
