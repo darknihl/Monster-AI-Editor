@@ -36,12 +36,12 @@ namespace BattleScripts
             while (true)
             {
                 MonsterCommand mc = new MonsterCommand();
-                int OpcodeHex = Rom.Read16();
+                int OpcodeHex = Rom.Read8();
 
-                if (OpcodeHex < 0xFB00 && OpcodeHex > 0xFCFF)
+                if (OpcodeHex == 0xFB || OpcodeHex == 0XFC)
                 {
-                    Rom.Seek(-2, SeekOrigin.Current);
-                    OpcodeHex = Rom.Read8();
+                    Rom.Seek(-1, SeekOrigin.Current);
+                    OpcodeHex = Rom.Read16();
                 }
 
                 Opcode op = ot.LookupOpcodeByHex(OpcodeHex);
